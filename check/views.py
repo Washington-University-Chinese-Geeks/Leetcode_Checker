@@ -40,6 +40,9 @@ def last_submission_time(member_id):
 
 
 # Create your views here.
+@require_GET
+def get_benchmark(request):
+    return render(request,'benchmark.html',{})
 
 @require_GET
 def get_ac_data(request):
@@ -53,7 +56,7 @@ def get_schedule_data(request):
 
 
 @require_GET
-def get_benchmark(request):
+def get_benchmark_data(request):
     # update_member_data(GoogleSheetScraper(os.getenv("GOOGLE_SHEET_ID"), os.getenv("GOOGLE_API_KEY")))
     # update_benchmark()
     context={'last_update_time': 'N/A'}

@@ -8,7 +8,7 @@ networks:
 
 services:
   lcbackend:
-    image: trance0/lcbackend:v1.0
+    image: trance0/lcbackend:v0.9
     env_file: 
       - .env
     build:
