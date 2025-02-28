@@ -57,7 +57,7 @@ class Problem(models.Model):
         on_delete=models.CASCADE,
         null=False,
     )
-    problem_code = models.IntegerField(null=False)
+    problem_code = models.IntegerField(null=True, default=-1)
     problem_title= models.CharField(null=False,max_length=256)
     problem_slug= models.CharField(null=False,max_length=256)
     # is the problem ac or not

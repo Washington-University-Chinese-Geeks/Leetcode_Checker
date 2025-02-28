@@ -9,6 +9,10 @@
                 type="button" role="tab" aria-controls="nav-week-edit" aria-selected="false">
                 Week
             </button>
+            <button class="nav-link" id="nav-month-tab" data-bs-toggle="tab" data-bs-target="#nav-month-edit"
+                type="button" role="tab" aria-controls="nav-month-edit" aria-selected="false">
+                Month
+            </button>
             <button class="nav-link" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all-gen" type="button"
                 role="tab" aria-controls="nav-all-gen" aria-selected="false">
                 All time
@@ -33,10 +37,9 @@
                 <tbody>
                     <!-- Example rows, replace with dynamic content -->
                     {% for entry in daily_benchmark %}
-                    <tr
-                        style="{% if forloop.counter == 1 %}background-color: gold;{% elif forloop.counter == 2 %}background-color: silver;{% elif forloop.counter == 3 %}background-color: bronze;{% endif %}">
+                    <tr>
                         <th scope="row">{{forloop.counter}}</th>
-                        <td>{{entry.user.user_id.username}}</td>
+                        <td class="{% if forloop.counter == 1 %}text-danger {% elif forloop.counter == 2 %}text-warning{% elif forloop.counter == 3 %}text-info{% else %} text-secondary{% endif %}">{{entry.user.user_id.username}}</td>
                         <td>{{entry.AC_count}}</td>
                         <td>{{entry.last_submission_time}}</td>
                     </tr>
@@ -64,10 +67,9 @@
                 <tbody>
                     <!-- Example rows, replace with dynamic content -->
                     {% for entry in weekly_benchmark %}
-                    <tr
-                        style="{% if forloop.counter == 1 %}background-color: gold;{% elif forloop.counter == 2 %}background-color: silver;{% elif forloop.counter == 3 %}background-color: bronze;{% endif %}">
+                    <tr>
                         <th scope="row">{{forloop.counter}}</th>
-                        <td>{{entry.user.user_id.username}}</td>
+                        <td class="{% if forloop.counter == 1 %}text-danger {% elif forloop.counter == 2 %}text-warning{% elif forloop.counter == 3 %}text-info{% else %} text-secondary{% endif %}">{{entry.user.user_id.username}}</td>
                         <td>{{entry.AC_count}}</td>
                         <td>{{entry.last_submission_time}}</td>
                     </tr>
@@ -80,6 +82,36 @@
             {% endif %}
         </div>
     </div>
+    <div class="tab-pane fade" id="nav-month-edit" role="tabpanel" aria-labelledby="nav-month-tab" tabindex="0">
+        <div class="card-body">
+            {% if monthly_benchmark %}
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">User</th>
+                        <th scope="col">AC Count</th>
+                        <th scope="col">Last Submission Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Example rows, replace with dynamic content -->
+                    {% for entry in monthly_benchmark %}
+                    <tr>
+                        <th scope="row">{{forloop.counter}}</th>
+                        <td class="{% if forloop.counter == 1 %}text-danger {% elif forloop.counter == 2 %}text-warning{% elif forloop.counter == 3 %}text-info{% else %} text-secondary{% endif %}">{{entry.user.user_id.username}}</td>
+                        <td>{{entry.AC_count}}</td>
+                        <td>{{entry.last_submission_time}}</td>
+                    </tr>
+                    {% endfor %}
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+            {% else %}
+            <p class="text-muted">No benchmark data</p>
+            {% endif %}
+        </div>
+    </div> 
     <div class="tab-pane fade" id="nav-all-gen" role="tabpanel" aria-labelledby="nav-all-tab" tabindex="0">
         <div class="card-body">
             {% if all_time_benchmark %}
@@ -95,10 +127,9 @@
                 <tbody>
                     <!-- Example rows, replace with dynamic content -->
                     {% for entry in all_time_benchmark %}
-                    <tr
-                        style="{% if forloop.counter == 1 %}background-color: gold;{% elif forloop.counter == 2 %}background-color: silver;{% elif forloop.counter == 3 %}background-color: bronze;{% endif %}">
+                    <tr>
                         <th scope="row">{{forloop.counter}}</th>
-                        <td>{{entry.user.user_id.username}}</td>
+                        <td class="{% if forloop.counter == 1 %}text-danger {% elif forloop.counter == 2 %}text-warning{% elif forloop.counter == 3 %}text-info{% else %} text-secondary{% endif %}">{{entry.user.user_id.username}}</td>
                         <td>{{entry.AC_count}}</td>
                         <td>{{entry.last_submission_time}}</td>
                     </tr>

@@ -61,33 +61,6 @@ def get_benchmark_data(request):
     # update_benchmark()
     context={'last_update_time': 'N/A'}
     # test data
-    daily_submissions = Problem.objects.filter(
-        Q(schedule_id__member_id__user_id__is_staff=False)&
-        Q(status=ProblemStatusChoices.AC)&
-        Q(done_date__date__gte=timezone.now().date()-timedelta(days=1))
-        )
-    daily_users = daily_submissions.values('schedule_id__member_id').distinct()
-    daily_ranking = sorted([{
-        "user": Member.objects.get(id=problem['schedule_id__member_id']), 
-        "AC_count": daily_submissions.filter(schedule_id__member_id=problem['schedule_id__member_id']).count(), 
-        "last_submission_time": last_submission_time(problem['schedule_id__member_id'])
-        } for problem in daily_users], key=lambda x: x['AC_count'], reverse=True)
-    
-    logger.info(f"Daily ranking: {daily_ranking}, extracting from: {daily_users}, recent submission: {daily_submissions}")
-
-    weekly_submissions = Problem.objects.filter(
-        Q(schedule_id__member_id__user_id__is_staff=False)&
-        Q(status=ProblemStatusChoices.AC)&
-        Q(done_date__date__gte=timezone.now().date()-timedelta(days=7))
-        )
-    weekly_users = weekly_submissions.values('schedule_id__member_id').distinct()
-    weekly_ranking = sorted([{
-        "user": Member.objects.get(id=problem['schedule_id__member_id']), 
-        "AC_count": weekly_submissions.filter(schedule_id__member_id=problem['schedule_id__member_id']).count(), 
-        "last_submission_time": last_submission_time(problem['schedule_id__member_id'])
-        } for problem in weekly_users], key=lambda x: x['AC_count'], reverse=True)
-    logger.info(f"Weekly ranking: {weekly_ranking}, extracting from: {weekly_users}, recent submission: {weekly_submissions}")
-
     all_time_submissions = Problem.objects.filter(
         Q(schedule_id__member_id__user_id__is_staff=False)&
         Q(status=ProblemStatusChoices.AC)
@@ -99,9 +72,39 @@ def get_benchmark_data(request):
         "last_submission_time": last_submission_time(problem['schedule_id__member_id'])
         } for problem in all_time_users], key=lambda x: x['AC_count'], reverse=True)
     logger.info(f"All time ranking: {all_time_ranking}, extracting from: {all_time_users}, recent submission: {all_time_submissions}")
+   
+    monthly_submissions = all_time_submissions.filter(Q(done_date__date__gte=timezone.now().date().replace(day=1)))
+    monthly_users = monthly_submissions.values('schedule_id__member_id').distinct()
+    monthly_ranking = sorted([{
+        "user": Member.objects.get(id=problem['schedule_id__member_id']), 
+        "AC_count": monthly_submissions.filter(schedule_id__member_id=problem['schedule_id__member_id']).count(), 
+        "last_submission_time": last_submission_time(problem['schedule_id__member_id'])
+        } for problem in monthly_users], key=lambda x: x['AC_count'], reverse=True)    
+    logger.info(f"Monthly ranking: {monthly_ranking}, extracting from: {monthly_users}, recent submission: {monthly_submissions}")
 
+    weekly_submissions = all_time_submissions.filter(Q(done_date__date__gte=timezone.now().date()-timedelta(days=7)))
+    weekly_users = weekly_submissions.values('schedule_id__member_id').distinct()
+    weekly_ranking = sorted([{
+        "user": Member.objects.get(id=problem['schedule_id__member_id']), 
+        "AC_count": weekly_submissions.filter(schedule_id__member_id=problem['schedule_id__member_id']).count(), 
+        "last_submission_time": last_submission_time(problem['schedule_id__member_id'])
+        } for problem in weekly_users], key=lambda x: x['AC_count'], reverse=True)
+    logger.info(f"Weekly ranking: {weekly_ranking}, extracting from: {weekly_users}, recent submission: {weekly_submissions}")
+
+    daily_submissions = weekly_submissions.filter(Q(done_date__date__gte=timezone.now().date()-timedelta(days=1)))
+    daily_users = daily_submissions.values('schedule_id__member_id').distinct()
+    daily_ranking = sorted([{
+        "user": Member.objects.get(id=problem['schedule_id__member_id']), 
+        "AC_count": daily_submissions.filter(schedule_id__member_id=problem['schedule_id__member_id']).count(), 
+        "last_submission_time": last_submission_time(problem['schedule_id__member_id'])
+        } for problem in daily_users], key=lambda x: x['AC_count'], reverse=True)
+    
+    logger.info(f"Daily ranking: {daily_ranking}, extracting from: {daily_users}, recent submission: {daily_submissions}")
+
+    
     context['daily_benchmark'] = daily_ranking
     context['weekly_benchmark'] = weekly_ranking
+    context['monthly_benchmark'] = monthly_ranking
     context['all_time_benchmark'] = all_time_ranking
     context['logs'] = ServerOperations.objects.all().order_by('-timestamp')[:10]
     return render(request,'benchmark_display.html',context)

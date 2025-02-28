@@ -28,8 +28,41 @@ logger = logging.getLogger(__name__)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+def __update_root_problem(problem_name:str, problem_slug:str)->Optional[Problem]:
+    """
+    Add a new problem scraped from leetcode to server
+
+    :param problem_name: The name of the problem to be added
+    :type problem_name: str
+
+    :param problem_slug: The unique identifier for the problem
+    :type problem_slug: str
+
+    :return: The newly created Problem instance or None if the problem already exists
+    :rtype: Optional[Problem]
+    """
+    if get_root_problem(problem_slug)!=None:
+        logger.error("Trying to create problem with repeated problem slug, terminated.")
+        return None
+    logger.info("Updating root schedule with problem parameters...")
+    root_schedule = __get_root_schedule()
+    # double check for dummy input
+    logger.info(f"Creating problem {problem_name} {problem_slug}...")
+    root_problem=Problem.objects.create(
+        schedule_id=root_schedule,
+        # skip id creation
+        problem_title=problem_name,
+        # guess the problem slug, not accurate
+        problem_slug=problem_slug,
+        status=ProblemStatusChoices.SP,
+        proof_url=None,
+    )
+    return root_problem
+
 def __update_root_problem_list()->Optional[Schedule]:
     """
+    DEPRECIATED, use other functions like __update_root_problem instead.
+
     Update the root problem list from csv file
 
     takes 1 minute to update, do not call this function frequently
@@ -85,6 +118,19 @@ def __get_root_schedule()->Optional[Schedule]:
         __update_root_problem_list()
     return root_schedule
 
+def get_root_problem(problem_slug:str)->Optional[Problem]:
+    """
+    Get the problem data, if not exists return None, do nothing.
+
+    :param problem_slug: problem slug
+    :type problem_slug: str
+
+    :return: problem data
+    :rtype: Problem or None
+    """
+    root_schedule = __get_root_schedule()
+    return Problem.objects.filter(schedule_id=root_schedule, problem_slug=problem_slug).first()
+
 def get_root_problem_by_code(problem_code:int)->Optional[Problem]:
     """
     Get the problem data, if not exists, update the problem data
@@ -97,11 +143,6 @@ def get_root_problem_by_code(problem_code:int)->Optional[Problem]:
     """
     # get the problem
     root_schedule = __get_root_schedule()
-    problem = Problem.objects.filter(schedule_id=root_schedule, problem_code=problem_code).first()
-    if problem is not None:
-        return problem
-    logger.info(f"Problem with code {problem_code} not found, updating...")
-    __update_root_problem_list()
     return Problem.objects.filter(schedule_id=root_schedule, problem_code=problem_code).first()
 
 
@@ -116,11 +157,6 @@ def get_root_problem_by_title(problem_title:str)->Optional[Problem]:
     :rtype: Problem or None
     """
     root_schedule = __get_root_schedule()
-    problem = Problem.objects.filter(schedule_id=root_schedule, problem_title=problem_title).first()
-    if problem is not None:
-        return problem
-    logger.info(f"Problem with title {problem_title} not found, updating...")
-    __update_root_problem_list()
     return Problem.objects.filter(schedule_id=root_schedule, problem_title=problem_title).first()
 
 def get_full_problem_list()->Optional[list[Problem]]:
@@ -162,9 +198,12 @@ def update_ac_problems(member) -> Optional[list[Problem]]:
             continue
         
         # get root problem, if not found, ignore this problem
-        root_problem = get_root_problem_by_title(problem_title)
+        root_problem = get_root_problem(problem_slug)
         if root_problem is None:
-            logger.error(f"Root problem {problem_title} not found, ignore this problem")
+            logger.warning(f"Root problem {problem_title} not found, adding this problem")
+            root_problem = __update_root_problem(problem_title,problem_slug)
+            if root_problem is None:
+                logger.error(f"Root problem {problem_title} could not be updated")
             continue
         # update slug dynamically if root problem is incorrect
         if root_problem.problem_slug != problem_slug:
@@ -189,7 +228,8 @@ def update_ac_problems(member) -> Optional[list[Problem]]:
             satisfied_problem.save()
             continue
         # add to latest free schedule set
-        free_schedule = Schedule.objects.filter(Q(schedule_type=ScheduleTypeChoices.FREE)).order_by('-start_date').first()
+        free_schedule = Schedule.objects.filter(Q(schedule_type=ScheduleTypeChoices.FREE) 
+                                                and Q(member_id=member)).order_by('-start_date').first()
         logger.info(f"Add recent ac problem {root_problem.problem_title} to free schedule: {free_schedule}")
         # create a free problem
         Problem.objects.create(
