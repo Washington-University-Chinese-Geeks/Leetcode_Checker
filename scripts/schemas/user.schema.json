@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wucg.github.io/leetcode-dashboard/schemas/user.schema.json",
+  "title": "LeetCode Dashboard User",
+  "description": "Per-user record written by scripts/collect.py into data/users/<slug>.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "leetcode_username",
+    "server_region",
+    "display_name",
+    "last_updated",
+    "recent_submissions"
+  ],
+  "properties": {
+    "leetcode_username": { "type": "string", "minLength": 1 },
+    "display_name":      { "type": "string", "minLength": 1 },
+    "server_region":     { "type": "string", "enum": ["US", "CN"] },
+    "last_updated":      { "type": "string", "format": "date-time" },
+    "profile": {
+      "type": ["object", "null"],
+      "additionalProperties": true,
+      "properties": {
+        "ranking":       { "type": ["integer", "null"] },
+        "user_avatar":   { "type": ["string", "null"] },
+        "real_name":     { "type": ["string", "null"] },
+        "country_name":  { "type": ["string", "null"] },
+        "reputation":    { "type": ["integer", "null"] }
+      }
+    },
+    "totals": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "easy":   { "type": ["integer", "null"] },
+        "medium": { "type": ["integer", "null"] },
+        "hard":   { "type": ["integer", "null"] },
+        "all":    { "type": ["integer", "null"] }
+      }
+    },
+    "calendar": {
+      "type": ["object", "null"],
+      "additionalProperties": true,
+      "properties": {
+        "streak":             { "type": ["integer", "null"] },
+        "total_active_days":  { "type": ["integer", "null"] },
+        "submission_calendar":{ "type": ["string", "null"] }
+      }
+    },
+    "recent_submissions": {
+      "type": "array",
+      "items": { "$ref": "submission.schema.json" }
+    }
+  }
+}

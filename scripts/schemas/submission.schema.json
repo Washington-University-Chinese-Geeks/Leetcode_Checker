@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wucg.github.io/leetcode-dashboard/schemas/submission.schema.json",
+  "title": "LeetCode Submission",
+  "description": "A single recent accepted submission returned by the LeetCode GraphQL API.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "title_slug", "timestamp"],
+  "properties": {
+    "id":         { "type": "string", "pattern": "^[0-9]+$" },
+    "title":      { "type": "string", "minLength": 1 },
+    "title_slug": { "type": "string", "minLength": 1 },
+    "timestamp":  { "type": "string", "pattern": "^[0-9]+$" },
+    "proof_url":  { "type": "string", "format": "uri" },
+    "submitted_at": { "type": "string", "format": "date-time" }
+  }
+}

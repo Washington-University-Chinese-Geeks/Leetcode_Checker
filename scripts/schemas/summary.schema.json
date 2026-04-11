@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wucg.github.io/leetcode-dashboard/schemas/summary.schema.json",
+  "title": "LeetCode Dashboard Summary",
+  "description": "Top-level roster summary written to data/summary.json. One entry per tracked member.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["generated_at", "member_count", "members"],
+  "properties": {
+    "generated_at": { "type": "string", "format": "date-time" },
+    "member_count": { "type": "integer", "minimum": 0 },
+    "members": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["leetcode_username", "display_name", "server_region", "data_file"],
+        "properties": {
+          "leetcode_username":   { "type": "string" },
+          "display_name":        { "type": "string" },
+          "server_region":       { "type": "string", "enum": ["US", "CN"] },
+          "data_file":           { "type": "string" },
+          "total_solved":        { "type": ["integer", "null"] },
+          "recent_submission_count": { "type": ["integer", "null"] },
+          "last_submission_at":  { "type": ["string", "null"], "format": "date-time" }
+        }
+      }
+    }
+  }
+}
