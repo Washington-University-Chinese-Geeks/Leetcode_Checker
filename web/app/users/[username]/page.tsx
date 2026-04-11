@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { listUserSlugs, loadUserBySlug } from "@/lib/data";
+import { listUserSlugs, loadUserBySlug } from "../../../lib/data";
 
 type Params = { username: string };
 

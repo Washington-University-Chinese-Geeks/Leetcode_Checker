@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { loadSummary } from "@/lib/data";
+import { loadSummary } from "../lib/data";
 
 function formatDate(iso: string): string {
   if (!iso) return "never";

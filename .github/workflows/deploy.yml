@@ -1,12 +1,22 @@
 name: Deploy dashboard to Pages
 
 # Builds the Next.js static export in web/ and publishes it to GitHub Pages.
-# Triggered on every push to main that touches the frontend or the committed
-# data snapshot, and on completion of the daily collector workflow.
+#
+# Push trigger fires on both `main` and `json-backend`:
+#   - `main` is the long-term home of the migrated pipeline.
+#   - `json-backend` is the active migration branch; listing it here lets
+#     Pages deploys run today, and becomes a harmless no-op after that
+#     branch is merged and deleted — no edits required post-merge.
+#
+# Note: `workflow_dispatch` and `workflow_run` below only fire from the
+# repository's default branch (a GitHub Actions constraint), so the
+# manual button and the collector chain won't be active until the
+# workflow file lands on `main`. Direct pushes still trigger builds on
+# either branch via the `push` event above.
 
 on:
   push:
-    branches: [main]
+    branches: [main, json-backend]
     paths:
       - "web/**"
       - "data/**"
@@ -34,12 +44,32 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Node
+      - name: Detect lockfile
+        id: lockfile
+        run: |
+          if [ -f web/package-lock.json ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Two variants of setup-node: one with npm cache when a lockfile is
+      # present, one without (setup-node errors out if cache-dependency-path
+      # points at a non-existent file). Run `npm install` locally in web/
+      # and commit the resulting package-lock.json to enable caching.
+      - name: Set up Node (with cache)
+        if: steps.lockfile.outputs.exists == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: npm
           cache-dependency-path: web/package-lock.json
+
+      - name: Set up Node (no cache)
+        if: steps.lockfile.outputs.exists != 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
       - name: Install dependencies
         working-directory: web
