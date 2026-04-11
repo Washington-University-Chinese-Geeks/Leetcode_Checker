@@ -166,3 +166,9 @@ cython_debug/
 
 # production folder
 /productionfiles
+
+# Un-ignore the Next.js source directory. The unanchored `lib/` rule above
+# (Python packaging artifact from the upstream gitignore template) otherwise
+# swallows web/lib/, which breaks the dashboard build on CI.
+!web/lib/
+!web/lib/**
