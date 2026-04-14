@@ -110,14 +110,22 @@ Add a client beside `scripts/google_sheet.py` that returns the same
 
 ## 5. What to leave alone
 
-The directories `check/`, `member/`, `main/`, `static/`, `nginx/` and
-files `Dockerfile`, `docker-compose.yml`, `manage.py`, `entrypoint.sh`,
-`requirements.txt` (at repo root) are **legacy Django code**. They are
-retained for reference during the migration and are not part of the
-current pipeline. Do not add new features to them. They can be deleted
-once the new pipeline has been validated in production for a few cycles.
+Everything under `backup/` is **retired Django code** (the old `check/`,
+`member/`, `main/`, `static/`, `nginx/`, `logs/` apps plus `manage.py`,
+`Dockerfile`, `docker-compose.yml`, `entrypoint.sh`, `env.sample`, and
+the old root `requirements.txt`). It is archived for historical
+reference only and is not part of the current pipeline. Do not add
+features to it, do not import from it, and do not resurrect it unless
+the user explicitly asks.
 
-## 6. Quick sanity checks
+## 6. Branching
+
+Work happens directly on `main`. The `json-backend` migration branch
+was merged into `main` on 2026-04-13; new work should branch from
+`main` (or commit to it directly for small changes) rather than
+resurrecting `json-backend`.
+
+## 7. Quick sanity checks
 
 Before opening a PR:
 
