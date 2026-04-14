@@ -1,0 +1,127 @@
+{
+  "calendar": {
+    "streak": 2,
+    "submission_calendar": "{\"1745107200\": 3, \"1745280000\": 2, \"1746316800\": 4, \"1746576000\": 1, \"1757808000\": 10, \"1757894400\": 1}",
+    "total_active_days": 6
+  },
+  "display_name": "Kalina",
+  "last_updated": "2026-04-14T08:52:07.795057+00:00",
+  "leetcode_username": "Cobalt_3902",
+  "plan": {
+    "end_date": null,
+    "start_date": "2024-10-28",
+    "submissions_in_period": 0
+  },
+  "profile": {
+    "country_name": "United States",
+    "ranking": 520366,
+    "real_name": "Kalina",
+    "reputation": 0,
+    "user_avatar": "https://assets.leetcode.com/users/Cobalt_3902/avatar_1739162987.png"
+  },
+  "recent_submissions": [
+    {
+      "id": "1771087979",
+      "proof_url": "https://leetcode.com/submissions/detail/1771087979/",
+      "submitted_at": "2025-09-15T03:00:01+00:00",
+      "timestamp": "1757905201",
+      "title": "Maximum Number of Words You Can Type",
+      "title_slug": "maximum-number-of-words-you-can-type"
+    },
+    {
+      "id": "1769989083",
+      "proof_url": "https://leetcode.com/submissions/detail/1769989083/",
+      "submitted_at": "2025-09-14T02:54:35+00:00",
+      "timestamp": "1757818475",
+      "title": "Subsequence Sum After Capping Elements",
+      "title_slug": "subsequence-sum-after-capping-elements"
+    },
+    {
+      "id": "1769951170",
+      "proof_url": "https://leetcode.com/submissions/detail/1769951170/",
+      "submitted_at": "2025-09-14T02:33:08+00:00",
+      "timestamp": "1757817188",
+      "title": "Maximize Sum of At Most K Distinct Elements",
+      "title_slug": "maximize-sum-of-at-most-k-distinct-elements"
+    },
+    {
+      "id": "1769946101",
+      "proof_url": "https://leetcode.com/submissions/detail/1769946101/",
+      "submitted_at": "2025-09-14T02:31:27+00:00",
+      "timestamp": "1757817087",
+      "title": "Earliest Time to Finish One Task",
+      "title_slug": "earliest-time-to-finish-one-task"
+    },
+    {
+      "id": "1627537694",
+      "proof_url": "https://leetcode.com/submissions/detail/1627537694/",
+      "submitted_at": "2025-05-07T05:04:48+00:00",
+      "timestamp": "1746594288",
+      "title": "Find Minimum Time to Reach Last Room I",
+      "title_slug": "find-minimum-time-to-reach-last-room-i"
+    },
+    {
+      "id": "1624865345",
+      "proof_url": "https://leetcode.com/submissions/detail/1624865345/",
+      "submitted_at": "2025-05-04T02:41:10+00:00",
+      "timestamp": "1746326470",
+      "title": "Fill a Special Grid",
+      "title_slug": "fill-a-special-grid"
+    },
+    {
+      "id": "1624851892",
+      "proof_url": "https://leetcode.com/submissions/detail/1624851892/",
+      "submitted_at": "2025-05-04T02:31:41+00:00",
+      "timestamp": "1746325901",
+      "title": "Maximum Product of Two Digits",
+      "title_slug": "maximum-product-of-two-digits"
+    },
+    {
+      "id": "1624826565",
+      "proof_url": "https://leetcode.com/submissions/detail/1624826565/",
+      "submitted_at": "2025-05-04T01:27:01+00:00",
+      "timestamp": "1746322021",
+      "title": "Number of Equivalent Domino Pairs",
+      "title_slug": "number-of-equivalent-domino-pairs"
+    },
+    {
+      "id": "1615050630",
+      "proof_url": "https://leetcode.com/submissions/detail/1615050630/",
+      "submitted_at": "2025-04-22T22:00:06+00:00",
+      "timestamp": "1745359206",
+      "title": "Count the Number of Ideal Arrays",
+      "title_slug": "count-the-number-of-ideal-arrays"
+    },
+    {
+      "id": "1612016281",
+      "proof_url": "https://leetcode.com/submissions/detail/1612016281/",
+      "submitted_at": "2025-04-20T02:45:38+00:00",
+      "timestamp": "1745117138",
+      "title": "Make Array Non-decreasing",
+      "title_slug": "make-array-non-decreasing"
+    },
+    {
+      "id": "1612004796",
+      "proof_url": "https://leetcode.com/submissions/detail/1612004796/",
+      "submitted_at": "2025-04-20T02:39:25+00:00",
+      "timestamp": "1745116765",
+      "title": "Calculate Score After Performing Instructions",
+      "title_slug": "calculate-score-after-performing-instructions"
+    },
+    {
+      "id": "1611975736",
+      "proof_url": "https://leetcode.com/submissions/detail/1611975736/",
+      "submitted_at": "2025-04-20T01:48:11+00:00",
+      "timestamp": "1745113691",
+      "title": "Rabbits in Forest",
+      "title_slug": "rabbits-in-forest"
+    }
+  ],
+  "server_region": "US",
+  "totals": {
+    "all": 270,
+    "easy": 93,
+    "hard": 24,
+    "medium": 153
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "calendar": {
+    "streak": 4,
+    "submission_calendar": "{\"1767657600\": 2, \"1767744000\": 3, \"1768521600\": 1, \"1768694400\": 2, \"1768780800\": 3, \"1768867200\": 1, \"1768953600\": 3, \"1771027200\": 3, \"1771113600\": 5, \"1771459200\": 5, \"1771545600\": 1, \"1771804800\": 1, \"1771891200\": 4, \"1771977600\": 2, \"1772064000\": 2, \"1774051200\": 3, \"1774137600\": 5, \"1774396800\": 1, \"1774569600\": 5, \"1750982400\": 7, \"1762560000\": 1, \"1763251200\": 6, \"1763596800\": 3, \"1763683200\": 7}",
+    "total_active_days": 24
+  },
+  "display_name": "aronic",
+  "last_updated": "2026-04-14T08:52:07.795057+00:00",
+  "leetcode_username": "aaronbychen",
+  "plan": {
+    "end_date": "2027-06-01",
+    "start_date": "2025-01-21",
+    "submissions_in_period": 0
+  },
+  "profile": {
+    "country_name": null,
+    "ranking": 835698,
+    "real_name": "Aaron",
+    "reputation": 0,
+    "user_avatar": "https://assets.leetcode.com/users/aaronbychen/avatar_1719996991.png"
+  },
+  "recent_submissions": [
+    {
+      "id": "1961307204",
+      "proof_url": "https://leetcode.com/submissions/detail/1961307204/",
+      "submitted_at": "2026-03-27T22:48:58+00:00",
+      "timestamp": "1774651738",
+      "title": "Longest Repeating Character Replacement",
+      "title_slug": "longest-repeating-character-replacement"
+    },
+    {
+      "id": "1961249337",
+      "proof_url": "https://leetcode.com/submissions/detail/1961249337/",
+      "submitted_at": "2026-03-27T20:11:13+00:00",
+      "timestamp": "1774642273",
+      "title": "Find Median from Data Stream",
+      "title_slug": "find-median-from-data-stream"
+    },
+    {
+      "id": "1958299159",
+      "proof_url": "https://leetcode.com/submissions/detail/1958299159/",
+      "submitted_at": "2026-03-25T00:39:23+00:00",
+      "timestamp": "1774399163",
+      "title": "Longest Happy String",
+      "title_slug": "longest-happy-string"
+    },
+    {
+      "id": "1955384511",
+      "proof_url": "https://leetcode.com/submissions/detail/1955384511/",
+      "submitted_at": "2026-03-22T04:14:29+00:00",
+      "timestamp": "1774152869",
+      "title": "Jump Game",
+      "title_slug": "jump-game"
+    },
+    {
+      "id": "1955237983",
+      "proof_url": "https://leetcode.com/submissions/detail/1955237983/",
+      "submitted_at": "2026-03-22T02:40:52+00:00",
+      "timestamp": "1774147252",
+      "title": "Maximum Subarray",
+      "title_slug": "maximum-subarray"
+    },
+    {
+      "id": "1955213356",
+      "proof_url": "https://leetcode.com/submissions/detail/1955213356/",
+      "submitted_at": "2026-03-22T02:16:46+00:00",
+      "timestamp": "1774145806",
+      "title": "Sum of Two Integers",
+      "title_slug": "sum-of-two-integers"
+    },
+    {
+      "id": "1955190100",
+      "proof_url": "https://leetcode.com/submissions/detail/1955190100/",
+      "submitted_at": "2026-03-22T00:52:44+00:00",
+      "timestamp": "1774140764",
+      "title": "Missing Number",
+      "title_slug": "missing-number"
+    },
+    {
+      "id": "1955138618",
+      "proof_url": "https://leetcode.com/submissions/detail/1955138618/",
+      "submitted_at": "2026-03-21T21:53:57+00:00",
+      "timestamp": "1774130037",
+      "title": "Reverse Bits",
+      "title_slug": "reverse-bits"
+    },
+    {
+      "id": "1955135650",
+      "proof_url": "https://leetcode.com/submissions/detail/1955135650/",
+      "submitted_at": "2026-03-21T21:44:28+00:00",
+      "timestamp": "1774129468",
+      "title": "Counting Bits",
+      "title_slug": "counting-bits"
+    },
+    {
+      "id": "1932191171",
+      "proof_url": "https://leetcode.com/submissions/detail/1932191171/",
+      "submitted_at": "2026-02-26T20:01:27+00:00",
+      "timestamp": "1772136087",
+      "title": "LFU Cache",
+      "title_slug": "lfu-cache"
+    },
+    {
+      "id": "1931313048",
+      "proof_url": "https://leetcode.com/submissions/detail/1931313048/",
+      "submitted_at": "2026-02-26T02:26:01+00:00",
+      "timestamp": "1772072761",
+      "title": "Longest Common Subsequence",
+      "title_slug": "longest-common-subsequence"
+    },
+    {
+      "id": "1931074444",
+      "proof_url": "https://leetcode.com/submissions/detail/1931074444/",
+      "submitted_at": "2026-02-25T18:15:50+00:00",
+      "timestamp": "1772043350",
+      "title": "Unique Paths",
+      "title_slug": "unique-paths"
+    },
+    {
+      "id": "1930164880",
+      "proof_url": "https://leetcode.com/submissions/detail/1930164880/",
+      "submitted_at": "2026-02-24T23:05:46+00:00",
+      "timestamp": "1771974346",
+      "title": "Number of Islands",
+      "title_slug": "number-of-islands"
+    },
+    {
+      "id": "1929124114",
+      "proof_url": "https://leetcode.com/submissions/detail/1929124114/",
+      "submitted_at": "2026-02-24T02:47:02+00:00",
+      "timestamp": "1771901222",
+      "title": "Minimum Size Subarray Sum",
+      "title_slug": "minimum-size-subarray-sum"
+    },
+    {
+      "id": "1927933124",
+      "proof_url": "https://leetcode.com/submissions/detail/1927933124/",
+      "submitted_at": "2026-02-23T01:22:50+00:00",
+      "timestamp": "1771809770",
+      "title": "Trapping Rain Water",
+      "title_slug": "trapping-rain-water"
+    },
+    {
+      "id": "1924898417",
+      "proof_url": "https://leetcode.com/submissions/detail/1924898417/",
+      "submitted_at": "2026-02-20T01:22:32+00:00",
+      "timestamp": "1771550552",
+      "title": "LRU Cache",
+      "title_slug": "lru-cache"
+    },
+    {
+      "id": "1924659733",
+      "proof_url": "https://leetcode.com/submissions/detail/1924659733/",
+      "submitted_at": "2026-02-19T17:46:57+00:00",
+      "timestamp": "1771523217",
+      "title": "Number of 1 Bits",
+      "title_slug": "number-of-1-bits"
+    },
+    {
+      "id": "1924629252",
+      "proof_url": "https://leetcode.com/submissions/detail/1924629252/",
+      "submitted_at": "2026-02-19T17:21:29+00:00",
+      "timestamp": "1771521689",
+      "title": "Climbing Stairs",
+      "title_slug": "climbing-stairs"
+    },
+    {
+      "id": "1923905647",
+      "proof_url": "https://leetcode.com/submissions/detail/1923905647/",
+      "submitted_at": "2026-02-19T04:01:25+00:00",
+      "timestamp": "1771473685",
+      "title": "Subtree of Another Tree",
+      "title_slug": "subtree-of-another-tree"
+    },
+    {
+      "id": "1920439450",
+      "proof_url": "https://leetcode.com/submissions/detail/1920439450/",
+      "submitted_at": "2026-02-15T21:07:11+00:00",
+      "timestamp": "1771189631",
+      "title": "Same Tree",
+      "title_slug": "same-tree"
+    }
+  ],
+  "server_region": "US",
+  "totals": {
+    "all": 184,
+    "easy": 60,
+    "hard": 17,
+    "medium": 107
+  }
+}

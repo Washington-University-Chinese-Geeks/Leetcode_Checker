@@ -1,0 +1,30 @@
+{
+  "calendar": {
+    "streak": 0,
+    "submission_calendar": "{}",
+    "total_active_days": 0
+  },
+  "display_name": "WhoFuckSPFA",
+  "last_updated": "2026-04-14T08:52:07.795057+00:00",
+  "leetcode_username": "dijkstra20031023",
+  "plan": {
+    "end_date": "2075-01-01",
+    "start_date": "2025-01-20",
+    "submissions_in_period": 0
+  },
+  "profile": {
+    "country_name": "United States",
+    "ranking": 3689380,
+    "real_name": "Dijkstra",
+    "reputation": 0,
+    "user_avatar": "https://assets.leetcode.com/users/dijkstra20031023/avatar_1737414816.png"
+  },
+  "recent_submissions": [],
+  "server_region": "US",
+  "totals": {
+    "all": 24,
+    "easy": 5,
+    "hard": 3,
+    "medium": 16
+  }
+}

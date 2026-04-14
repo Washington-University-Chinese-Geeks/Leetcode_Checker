@@ -1,0 +1,191 @@
+{
+  "calendar": {
+    "streak": 4,
+    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
+    "total_active_days": 19
+  },
+  "display_name": "retep",
+  "last_updated": "2026-04-14T08:52:07.795057+00:00",
+  "leetcode_username": "retep_we",
+  "plan": {
+    "end_date": "2025-01-31",
+    "start_date": "2025-01-24",
+    "submissions_in_period": 0
+  },
+  "profile": {
+    "country_name": null,
+    "ranking": 2585826,
+    "real_name": "retep_we",
+    "reputation": 0,
+    "user_avatar": "https://assets.leetcode.com/users/retep_we/avatar_1730515392.png"
+  },
+  "recent_submissions": [
+    {
+      "id": "1967333653",
+      "proof_url": "https://leetcode.com/submissions/detail/1967333653/",
+      "submitted_at": "2026-04-03T03:54:10+00:00",
+      "timestamp": "1775188450",
+      "title": "Remove Nth Node From End of List",
+      "title_slug": "remove-nth-node-from-end-of-list"
+    },
+    {
+      "id": "1967327462",
+      "proof_url": "https://leetcode.com/submissions/detail/1967327462/",
+      "submitted_at": "2026-04-03T03:41:26+00:00",
+      "timestamp": "1775187686",
+      "title": "Remove Duplicates from Sorted List II",
+      "title_slug": "remove-duplicates-from-sorted-list-ii"
+    },
+    {
+      "id": "1965476073",
+      "proof_url": "https://leetcode.com/submissions/detail/1965476073/",
+      "submitted_at": "2026-04-01T04:35:14+00:00",
+      "timestamp": "1775018114",
+      "title": "Daily Temperatures",
+      "title_slug": "daily-temperatures"
+    },
+    {
+      "id": "1965440773",
+      "proof_url": "https://leetcode.com/submissions/detail/1965440773/",
+      "submitted_at": "2026-04-01T03:43:43+00:00",
+      "timestamp": "1775015023",
+      "title": "Evaluate Reverse Polish Notation",
+      "title_slug": "evaluate-reverse-polish-notation"
+    },
+    {
+      "id": "1963285965",
+      "proof_url": "https://leetcode.com/submissions/detail/1963285965/",
+      "submitted_at": "2026-03-29T22:40:37+00:00",
+      "timestamp": "1774824037",
+      "title": "Min Stack",
+      "title_slug": "min-stack"
+    },
+    {
+      "id": "1958427518",
+      "proof_url": "https://leetcode.com/submissions/detail/1958427518/",
+      "submitted_at": "2026-03-25T04:29:38+00:00",
+      "timestamp": "1774412978",
+      "title": "Longest Consecutive Sequence",
+      "title_slug": "longest-consecutive-sequence"
+    },
+    {
+      "id": "1957250438",
+      "proof_url": "https://leetcode.com/submissions/detail/1957250438/",
+      "submitted_at": "2026-03-24T01:38:11+00:00",
+      "timestamp": "1774316291",
+      "title": "Design Exam Scores Tracker",
+      "title_slug": "design-exam-scores-tracker"
+    },
+    {
+      "id": "1957238298",
+      "proof_url": "https://leetcode.com/submissions/detail/1957238298/",
+      "submitted_at": "2026-03-24T01:07:47+00:00",
+      "timestamp": "1774314467",
+      "title": "Valid Sudoku",
+      "title_slug": "valid-sudoku"
+    },
+    {
+      "id": "1957232013",
+      "proof_url": "https://leetcode.com/submissions/detail/1957232013/",
+      "submitted_at": "2026-03-24T00:50:57+00:00",
+      "timestamp": "1774313457",
+      "title": "Rotate Image",
+      "title_slug": "rotate-image"
+    },
+    {
+      "id": "1956255668",
+      "proof_url": "https://leetcode.com/submissions/detail/1956255668/",
+      "submitted_at": "2026-03-23T02:48:20+00:00",
+      "timestamp": "1774234100",
+      "title": "Spiral Matrix",
+      "title_slug": "spiral-matrix"
+    },
+    {
+      "id": "1956239894",
+      "proof_url": "https://leetcode.com/submissions/detail/1956239894/",
+      "submitted_at": "2026-03-23T02:10:13+00:00",
+      "timestamp": "1774231813",
+      "title": "Merge Intervals",
+      "title_slug": "merge-intervals"
+    },
+    {
+      "id": "1956235595",
+      "proof_url": "https://leetcode.com/submissions/detail/1956235595/",
+      "submitted_at": "2026-03-23T01:58:40+00:00",
+      "timestamp": "1774231120",
+      "title": "Product of Array Except Self",
+      "title_slug": "product-of-array-except-self"
+    },
+    {
+      "id": "1955362543",
+      "proof_url": "https://leetcode.com/submissions/detail/1955362543/",
+      "submitted_at": "2026-03-22T03:50:53+00:00",
+      "timestamp": "1774151453",
+      "title": "Best Time to Buy and Sell Stock",
+      "title_slug": "best-time-to-buy-and-sell-stock"
+    },
+    {
+      "id": "1955339298",
+      "proof_url": "https://leetcode.com/submissions/detail/1955339298/",
+      "submitted_at": "2026-03-22T03:34:26+00:00",
+      "timestamp": "1774150466",
+      "title": "Is Subsequence",
+      "title_slug": "is-subsequence"
+    },
+    {
+      "id": "1955270932",
+      "proof_url": "https://leetcode.com/submissions/detail/1955270932/",
+      "submitted_at": "2026-03-22T02:56:16+00:00",
+      "timestamp": "1774148176",
+      "title": "Maximum Subarray",
+      "title_slug": "maximum-subarray"
+    },
+    {
+      "id": "1955211894",
+      "proof_url": "https://leetcode.com/submissions/detail/1955211894/",
+      "submitted_at": "2026-03-22T02:12:12+00:00",
+      "timestamp": "1774145532",
+      "title": "Two Sum II - Input Array Is Sorted",
+      "title_slug": "two-sum-ii-input-array-is-sorted"
+    },
+    {
+      "id": "1953548974",
+      "proof_url": "https://leetcode.com/submissions/detail/1953548974/",
+      "submitted_at": "2026-03-20T03:15:11+00:00",
+      "timestamp": "1773976511",
+      "title": "LRU Cache",
+      "title_slug": "lru-cache"
+    },
+    {
+      "id": "1950697169",
+      "proof_url": "https://leetcode.com/submissions/detail/1950697169/",
+      "submitted_at": "2026-03-17T04:26:15+00:00",
+      "timestamp": "1773721575",
+      "title": "Design Ride Sharing System",
+      "title_slug": "design-ride-sharing-system"
+    },
+    {
+      "id": "1949677213",
+      "proof_url": "https://leetcode.com/submissions/detail/1949677213/",
+      "submitted_at": "2026-03-16T04:29:41+00:00",
+      "timestamp": "1773635381",
+      "title": "Get Biggest Three Rhombus Sums in a Grid",
+      "title_slug": "get-biggest-three-rhombus-sums-in-a-grid"
+    },
+    {
+      "id": "1949642715",
+      "proof_url": "https://leetcode.com/submissions/detail/1949642715/",
+      "submitted_at": "2026-03-16T03:33:28+00:00",
+      "timestamp": "1773632008",
+      "title": "Design Auction System",
+      "title_slug": "design-auction-system"
+    }
+  ],
+  "server_region": "US",
+  "totals": {
+    "all": 46,
+    "easy": 5,
+    "hard": 3,
+    "medium": 38
+  }
+}

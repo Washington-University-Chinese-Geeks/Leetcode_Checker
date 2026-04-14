@@ -1,0 +1,30 @@
+{
+  "calendar": {
+    "streak": 0,
+    "submission_calendar": "{}",
+    "total_active_days": 0
+  },
+  "display_name": "fang_z1",
+  "last_updated": "2026-04-14T08:52:07.795057+00:00",
+  "leetcode_username": "fang_z1",
+  "plan": {
+    "end_date": "2025-05-31",
+    "start_date": "2025-02-11",
+    "submissions_in_period": 0
+  },
+  "profile": {
+    "country_name": null,
+    "ranking": 5000001,
+    "real_name": "fang_z1",
+    "reputation": 0,
+    "user_avatar": "https://assets.leetcode.com/users/default_avatar.jpg"
+  },
+  "recent_submissions": [],
+  "server_region": "US",
+  "totals": {
+    "all": 9,
+    "easy": 9,
+    "hard": 0,
+    "medium": 0
+  }
+}

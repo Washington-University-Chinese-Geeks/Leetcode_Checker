@@ -1,0 +1,55 @@
+{
+  "calendar": {
+    "streak": 1,
+    "submission_calendar": "{\"1752883200\": 7}",
+    "total_active_days": 1
+  },
+  "display_name": "730",
+  "last_updated": "2026-04-14T08:52:07.795057+00:00",
+  "leetcode_username": "730",
+  "plan": {
+    "end_date": null,
+    "start_date": "2025-01-22",
+    "submissions_in_period": 0
+  },
+  "profile": {
+    "country_name": null,
+    "ranking": 3025233,
+    "real_name": "duwz730",
+    "reputation": 0,
+    "user_avatar": "https://assets.leetcode.com/users/avatars/avatar_1700455124.png"
+  },
+  "recent_submissions": [
+    {
+      "id": "1703563278",
+      "proof_url": "https://leetcode.com/submissions/detail/1703563278/",
+      "submitted_at": "2025-07-19T14:18:46+00:00",
+      "timestamp": "1752934726",
+      "title": "Battleships in a Board",
+      "title_slug": "battleships-in-a-board"
+    },
+    {
+      "id": "1703372735",
+      "proof_url": "https://leetcode.com/submissions/detail/1703372735/",
+      "submitted_at": "2025-07-19T10:42:09+00:00",
+      "timestamp": "1752921729",
+      "title": "LRU Cache",
+      "title_slug": "lru-cache"
+    },
+    {
+      "id": "1703281709",
+      "proof_url": "https://leetcode.com/submissions/detail/1703281709/",
+      "submitted_at": "2025-07-19T08:57:51+00:00",
+      "timestamp": "1752915471",
+      "title": "Palindrome Partitioning",
+      "title_slug": "palindrome-partitioning"
+    }
+  ],
+  "server_region": "US",
+  "totals": {
+    "all": 35,
+    "easy": 23,
+    "hard": 0,
+    "medium": 12
+  }
+}

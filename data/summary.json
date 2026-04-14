@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-04-14T08:52:07.795057+00:00",
+  "member_count": 9,
+  "members": [
+    {
+      "data_file": "data/users/730.json",
+      "display_name": "730",
+      "last_submission_at": "2025-07-19T14:18:46+00:00",
+      "leetcode_username": "730",
+      "plan_end_date": null,
+      "plan_start_date": "2025-01-22",
+      "plan_submission_count": 0,
+      "recent_submission_count": 3,
+      "server_region": "US",
+      "total_solved": 35
+    },
+    {
+      "data_file": "data/users/aaronbychen.json",
+      "display_name": "aronic",
+      "last_submission_at": "2026-03-27T22:48:58+00:00",
+      "leetcode_username": "aaronbychen",
+      "plan_end_date": "2027-06-01",
+      "plan_start_date": "2025-01-21",
+      "plan_submission_count": 0,
+      "recent_submission_count": 20,
+      "server_region": "US",
+      "total_solved": 184
+    },
+    {
+      "data_file": "data/users/cobalt_3902.json",
+      "display_name": "Kalina",
+      "last_submission_at": "2025-09-15T03:00:01+00:00",
+      "leetcode_username": "Cobalt_3902",
+      "plan_end_date": null,
+      "plan_start_date": "2024-10-28",
+      "plan_submission_count": 0,
+      "recent_submission_count": 12,
+      "server_region": "US",
+      "total_solved": 270
+    },
+    {
+      "data_file": "data/users/danielyanzhengyuhan.json",
+      "display_name": "Fulwin",
+      "last_submission_at": null,
+      "leetcode_username": "danielyanzhengyuhan",
+      "plan_end_date": "2025-05-01",
+      "plan_start_date": "2025-01-31",
+      "plan_submission_count": 0,
+      "recent_submission_count": 0,
+      "server_region": "US",
+      "total_solved": 95
+    },
+    {
+      "data_file": "data/users/dijkstra20031023.json",
+      "display_name": "WhoFuckSPFA",
+      "last_submission_at": null,
+      "leetcode_username": "dijkstra20031023",
+      "plan_end_date": "2075-01-01",
+      "plan_start_date": "2025-01-20",
+      "plan_submission_count": 0,
+      "recent_submission_count": 0,
+      "server_region": "US",
+      "total_solved": 24
+    },
+    {
+      "data_file": "data/users/enamian_akioi.json",
+      "display_name": "codezera",
+      "last_submission_at": "2025-09-10T16:34:40+00:00",
+      "leetcode_username": "EnAmiaN_AKIOI",
+      "plan_end_date": "2075-01-01",
+      "plan_start_date": "2025-01-21",
+      "plan_submission_count": 0,
+      "recent_submission_count": 11,
+      "server_region": "US",
+      "total_solved": 23
+    },
+    {
+      "data_file": "data/users/fang_z1.json",
+      "display_name": "fang_z1",
+      "last_submission_at": null,
+      "leetcode_username": "fang_z1",
+      "plan_end_date": "2025-05-31",
+      "plan_start_date": "2025-02-11",
+      "plan_submission_count": 0,
+      "recent_submission_count": 0,
+      "server_region": "US",
+      "total_solved": 9
+    },
+    {
+      "data_file": "data/users/retep_we.json",
+      "display_name": "retep",
+      "last_submission_at": "2026-04-03T03:54:10+00:00",
+      "leetcode_username": "retep_we",
+      "plan_end_date": "2025-01-31",
+      "plan_start_date": "2025-01-24",
+      "plan_submission_count": 0,
+      "recent_submission_count": 20,
+      "server_region": "US",
+      "total_solved": 46
+    },
+    {
+      "data_file": "data/users/trance-0.json",
+      "display_name": "; DROP TABLE Member",
+      "last_submission_at": "2026-04-14T02:50:07+00:00",
+      "leetcode_username": "Trance-0",
+      "plan_end_date": "2075-01-01",
+      "plan_start_date": "2024-10-28",
+      "plan_submission_count": 0,
+      "recent_submission_count": 20,
+      "server_region": "US",
+      "total_solved": 1493
+    }
+  ]
+}
