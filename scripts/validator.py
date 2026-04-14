@@ -41,10 +41,19 @@ def _build_validator(schema_name: str) -> Draft202012Validator:
     """Build a validator that can resolve sibling `$ref`s inside SCHEMA_DIR."""
     schema_path = SCHEMA_DIR / schema_name
     schema = _load_json(schema_path)
-    # Base URI must be a directory URL so relative $refs (like
-    # "submission.schema.json") resolve against SCHEMA_DIR.
     base_uri = schema_path.parent.as_uri() + "/"
-    resolver = RefResolver(base_uri=base_uri, referrer=schema)
+    # Preload every sibling schema into the resolver store so that relative
+    # $refs resolve locally even when a schema's own $id is a remote URL.
+    # Without this, jsonschema tries to HTTP-fetch the referenced schema and
+    # explodes on the HTML 404 body.
+    store: dict[str, Any] = {}
+    for sibling in SCHEMA_DIR.glob("*.schema.json"):
+        doc = _load_json(sibling)
+        sid = doc.get("$id")
+        if sid:
+            store[sid] = doc
+        store[base_uri + sibling.name] = doc
+    resolver = RefResolver(base_uri=base_uri, referrer=schema, store=store)
     return Draft202012Validator(schema, resolver=resolver)
 
 

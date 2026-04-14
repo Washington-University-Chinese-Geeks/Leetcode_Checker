@@ -22,7 +22,10 @@
           "data_file":           { "type": "string" },
           "total_solved":        { "type": ["integer", "null"] },
           "recent_submission_count": { "type": ["integer", "null"] },
-          "last_submission_at":  { "type": ["string", "null"], "format": "date-time" }
+          "last_submission_at":  { "type": ["string", "null"], "format": "date-time" },
+          "plan_start_date":     { "type": ["string", "null"], "format": "date" },
+          "plan_end_date":       { "type": ["string", "null"], "format": "date" },
+          "plan_submission_count": { "type": ["integer", "null"], "minimum": 0 }
         }
       }
     }

@@ -57,6 +57,10 @@ export default function HomePage() {
               <span>{m.total_solved ?? "—"}</span>
             </div>
             <div className="stat">
+              <span>AC in plan</span>
+              <span>{m.plan_submission_count ?? "—"}</span>
+            </div>
+            <div className="stat">
               <span>Recent AC</span>
               <span>{m.recent_submission_count ?? 0}</span>
             </div>

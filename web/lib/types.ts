@@ -30,6 +30,12 @@ export interface UserCalendar {
   submission_calendar: string | null;
 }
 
+export interface UserPlan {
+  start_date: string;
+  end_date: string | null;
+  submissions_in_period: number;
+}
+
 export interface UserRecord {
   leetcode_username: string;
   display_name: string;
@@ -38,6 +44,7 @@ export interface UserRecord {
   profile: UserProfile | null;
   totals: UserTotals | null;
   calendar: UserCalendar | null;
+  plan: UserPlan | null;
   recent_submissions: Submission[];
 }
 
@@ -49,6 +56,9 @@ export interface SummaryMember {
   total_solved: number | null;
   recent_submission_count: number | null;
   last_submission_at: string | null;
+  plan_start_date: string | null;
+  plan_end_date: string | null;
+  plan_submission_count: number | null;
 }
 
 export interface Summary {
