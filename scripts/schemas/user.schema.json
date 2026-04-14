@@ -47,6 +47,16 @@
         "submission_calendar":{ "type": ["string", "null"] }
       }
     },
+    "plan": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["start_date", "submissions_in_period"],
+      "properties": {
+        "start_date":            { "type": "string", "format": "date" },
+        "end_date":              { "type": ["string", "null"], "format": "date" },
+        "submissions_in_period": { "type": "integer", "minimum": 0 }
+      }
+    },
     "recent_submissions": {
       "type": "array",
       "items": { "$ref": "submission.schema.json" }

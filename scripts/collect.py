@@ -24,7 +24,7 @@ import logging
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -109,6 +109,64 @@ def _extract_calendar(calendar_payload: dict[str, Any] | None) -> dict[str, Any]
     }
 
 
+def _parse_plan_date(raw: str) -> date | None:
+    raw = (raw or "").strip()
+    if not raw:
+        return None
+    for fmt in ("%Y-%m-%d", "%Y/%m/%d", "%m/%d/%Y"):
+        try:
+            return datetime.strptime(raw, fmt).date()
+        except ValueError:
+            continue
+    return None
+
+
+def _sum_calendar_in_range(
+    calendar_json: str | None,
+    start: date,
+    end: date,
+) -> int:
+    """Sum daily AC counts from LeetCode's submissionCalendar JSON string."""
+    if not calendar_json:
+        return 0
+    try:
+        buckets = json.loads(calendar_json)
+    except (TypeError, ValueError):
+        return 0
+    total = 0
+    for epoch_str, count in buckets.items():
+        try:
+            day = datetime.fromtimestamp(int(epoch_str), tz=timezone.utc).date()
+        except (TypeError, ValueError, OSError):
+            continue
+        if start <= day <= end:
+            total += int(count)
+    return total
+
+
+def _build_plan(
+    member: Member,
+    calendar_payload: dict[str, Any] | None,
+    today: date,
+) -> dict[str, Any] | None:
+    """Compute the plan window and AC count within it."""
+    start = _parse_plan_date(member.start_date)
+    if start is None:
+        return None
+    expire = _parse_plan_date(member.expire_date)
+    # Cap the window at today: future end dates shouldn't be counted as past.
+    window_end = min(expire, today) if expire else today
+    if window_end < start:
+        window_end = start
+    calendar_json = (calendar_payload or {}).get("submissionCalendar")
+    count = _sum_calendar_in_range(calendar_json, start, window_end)
+    return {
+        "start_date": start.isoformat(),
+        "end_date": expire.isoformat() if expire else None,
+        "submissions_in_period": count,
+    }
+
+
 def build_user_record(
     member: Member,
     leetcode: LeetCodeClient,
@@ -119,6 +177,7 @@ def build_user_record(
     recent_raw = leetcode.recent_ac_submissions(member.leetcode_username)
     profile_bundle = leetcode.user_profile(member.leetcode_username)
 
+    calendar = _extract_calendar(profile_bundle.get("calendar"))
     record: dict[str, Any] = {
         "leetcode_username": member.leetcode_username,
         "display_name": member.display_name,
@@ -126,7 +185,8 @@ def build_user_record(
         "last_updated": now.isoformat(),
         "profile": _extract_profile(profile_bundle.get("profile")),
         "totals": _extract_totals(profile_bundle.get("solved")),
-        "calendar": _extract_calendar(profile_bundle.get("calendar")),
+        "calendar": calendar,
+        "plan": _build_plan(member, calendar, now.date()),
         "recent_submissions": [_normalize_submission(s) for s in recent_raw],
     }
     return record
@@ -191,6 +251,7 @@ def run(*, dry_run: bool = False) -> int:
 
         totals = record.get("totals") or {}
         most_recent = record["recent_submissions"][0] if record["recent_submissions"] else None
+        plan = record.get("plan")
         summary_entries.append(
             {
                 "leetcode_username": member.leetcode_username,
@@ -200,6 +261,9 @@ def run(*, dry_run: bool = False) -> int:
                 "total_solved": totals.get("all"),
                 "recent_submission_count": len(record["recent_submissions"]),
                 "last_submission_at": (most_recent or {}).get("submitted_at"),
+                "plan_start_date": (plan or {}).get("start_date"),
+                "plan_end_date": (plan or {}).get("end_date"),
+                "plan_submission_count": (plan or {}).get("submissions_in_period"),
             }
         )
 

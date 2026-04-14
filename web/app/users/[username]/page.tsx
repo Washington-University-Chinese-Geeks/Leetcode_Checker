@@ -32,6 +32,22 @@ export default function UserPage({ params }: { params: Params }) {
         </small>
       </h1>
 
+      {user.plan && (
+        <div className="card" style={{ marginBottom: "1.5rem" }}>
+          <h3>Plan</h3>
+          <div className="stat">
+            <span>Window</span>
+            <span>
+              {user.plan.start_date} → {user.plan.end_date ?? "ongoing"}
+            </span>
+          </div>
+          <div className="stat">
+            <span>AC in window</span>
+            <span>{user.plan.submissions_in_period}</span>
+          </div>
+        </div>
+      )}
+
       {user.totals && (
         <div className="card" style={{ marginBottom: "1.5rem" }}>
           <h3>Totals</h3>
