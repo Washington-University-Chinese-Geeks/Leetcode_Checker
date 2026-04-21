@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 2,
-    "submission_calendar": "{\"1745107200\": 3, \"1745280000\": 2, \"1746316800\": 4, \"1746576000\": 1, \"1757808000\": 10, \"1757894400\": 1}",
-    "total_active_days": 6
+    "submission_calendar": "{\"1745280000\": 2, \"1746316800\": 4, \"1746576000\": 1, \"1757808000\": 10, \"1757894400\": 1}",
+    "total_active_days": 5
   },
   "display_name": "Kalina",
-  "last_updated": "2026-04-20T09:18:07.519804+00:00",
+  "last_updated": "2026-04-21T09:00:23.012995+00:00",
   "leetcode_username": "Cobalt_3902",
   "plan": {
     "end_date": null,
@@ -14,7 +14,7 @@
   },
   "profile": {
     "country_name": "United States",
-    "ranking": 522293,
+    "ranking": 522563,
     "real_name": "Kalina",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/Cobalt_3902/avatar_1739162987.png"
@@ -91,22 +91,6 @@
       "timestamp": "1745359206",
       "title": "Count the Number of Ideal Arrays",
       "title_slug": "count-the-number-of-ideal-arrays"
-    },
-    {
-      "id": "1612016281",
-      "proof_url": "https://leetcode.com/submissions/detail/1612016281/",
-      "submitted_at": "2025-04-20T02:45:38+00:00",
-      "timestamp": "1745117138",
-      "title": "Make Array Non-decreasing",
-      "title_slug": "make-array-non-decreasing"
-    },
-    {
-      "id": "1612004796",
-      "proof_url": "https://leetcode.com/submissions/detail/1612004796/",
-      "submitted_at": "2025-04-20T02:39:25+00:00",
-      "timestamp": "1745116765",
-      "title": "Calculate Score After Performing Instructions",
-      "title_slug": "calculate-score-after-performing-instructions"
     }
   ],
   "server_region": "US",
