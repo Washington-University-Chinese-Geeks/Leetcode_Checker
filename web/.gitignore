@@ -4,3 +4,4 @@ out
 next-env.d.ts.bak
 .env.local
 .DS_Store
+tsconfig.tsbuildinfo
