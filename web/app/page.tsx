@@ -1,6 +1,5 @@
-import Link from "next/link";
-
-import { loadSummary } from "../lib/data";
+import MainTabs from "./components/MainTabs";
+import { loadAllUsers, loadBenchmarks, loadSummary } from "../lib/data";
 
 function formatDate(iso: string): string {
   if (!iso) return "never";
@@ -9,68 +8,38 @@ function formatDate(iso: string): string {
   return d.toISOString().slice(0, 10);
 }
 
-function slugify(username: string): string {
-  return (
-    username
-      .trim()
-      .toLowerCase()
-      .replace(/[^a-z0-9._-]+/g, "-")
-      .replace(/^-+|-+$/g, "") || "unknown"
-  );
-}
-
 export default function HomePage() {
   const summary = loadSummary();
-  const members = [...summary.members].sort((a, b) =>
-    (b.total_solved ?? 0) - (a.total_solved ?? 0),
-  );
+  const users = loadAllUsers();
+  const benchmarks = loadBenchmarks(users);
+
+  const userByName = new Map(users.map((u) => [u.leetcode_username, u]));
+  const leaderboard = summary.members.map((m) => {
+    const u = userByName.get(m.leetcode_username);
+    return {
+      leetcode_username: m.leetcode_username,
+      display_name: m.display_name,
+      server_region: m.server_region,
+      total_solved: m.total_solved ?? u?.totals?.all ?? null,
+      easy: u?.totals?.easy ?? null,
+      medium: u?.totals?.medium ?? null,
+      hard: u?.totals?.hard ?? null,
+    };
+  });
 
   return (
     <>
       <h1>
-        Roster{" "}
+        WUCG LeetCode{" "}
         <small>
           {summary.member_count} members · updated {formatDate(summary.generated_at)}
         </small>
       </h1>
-
-      {members.length === 0 && (
-        <p>
-          No member data yet. The collector workflow populates
-          <code> data/summary.json</code> on its first successful run.
-        </p>
-      )}
-
-      <div className="member-grid">
-        {members.map((m) => (
-          <Link
-            key={m.leetcode_username}
-            href={`/users/${slugify(m.leetcode_username)}/`}
-            className="card"
-          >
-            <h3>{m.display_name}</h3>
-            <div className="muted">
-              {m.leetcode_username} · {m.server_region}
-            </div>
-            <div className="stat">
-              <span>Total solved</span>
-              <span>{m.total_solved ?? "—"}</span>
-            </div>
-            <div className="stat">
-              <span>AC in plan</span>
-              <span>{m.plan_submission_count ?? "—"}</span>
-            </div>
-            <div className="stat">
-              <span>Recent AC</span>
-              <span>{m.recent_submission_count ?? 0}</span>
-            </div>
-            <div className="stat">
-              <span>Last AC</span>
-              <span>{formatDate(m.last_submission_at ?? "")}</span>
-            </div>
-          </Link>
-        ))}
-      </div>
+      <MainTabs
+        members={summary.members}
+        leaderboard={leaderboard}
+        benchmarks={benchmarks}
+      />
     </>
   );
 }

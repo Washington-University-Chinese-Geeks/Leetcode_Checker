@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
+import ThemeScript from "./components/ThemeScript";
+import ThemeToggle from "./components/ThemeToggle";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,6 +17,9 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <ThemeScript />
+      </head>
       <body>
         <header className="site-header">
           <Link href="/" className="brand">
@@ -22,6 +27,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           </Link>
           <nav>
             <Link href="/">Roster</Link>
+            <ThemeToggle />
           </nav>
         </header>
         <main className="site-main">{children}</main>

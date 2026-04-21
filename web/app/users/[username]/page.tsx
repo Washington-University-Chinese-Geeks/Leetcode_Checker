@@ -20,6 +20,9 @@ export default function UserPage({ params }: { params: Params }) {
   const user = loadUserBySlug(params.username);
   if (!user) notFound();
 
+  const totals = user.totals;
+  const total = totals?.all ?? null;
+
   return (
     <>
       <Link href="/" className="back-link">
@@ -28,12 +31,12 @@ export default function UserPage({ params }: { params: Params }) {
       <h1>
         {user.display_name}{" "}
         <small>
-          @{user.leetcode_username} · {user.server_region}
+          @{user.leetcode_username} · <span className="chip">{user.server_region}</span>
         </small>
       </h1>
 
       {user.plan && (
-        <div className="card" style={{ marginBottom: "1.5rem" }}>
+        <div className="card" style={{ marginBottom: "1rem" }}>
           <h3>Plan</h3>
           <div className="stat">
             <span>Window</span>
@@ -48,24 +51,23 @@ export default function UserPage({ params }: { params: Params }) {
         </div>
       )}
 
-      {user.totals && (
+      {totals && (
         <div className="card" style={{ marginBottom: "1.5rem" }}>
           <h3>Totals</h3>
           <div className="stat">
-            <span>Easy</span>
-            <span>{user.totals.easy ?? "—"}</span>
+            <span>All solved</span>
+            <span>{total ?? "—"}</span>
           </div>
-          <div className="stat">
-            <span>Medium</span>
-            <span>{user.totals.medium ?? "—"}</span>
-          </div>
-          <div className="stat">
-            <span>Hard</span>
-            <span>{user.totals.hard ?? "—"}</span>
-          </div>
-          <div className="stat">
-            <span>All</span>
-            <span>{user.totals.all ?? "—"}</span>
+          <div className="totals-row">
+            <div className="pill easy">
+              Easy<strong>{totals.easy ?? "—"}</strong>
+            </div>
+            <div className="pill medium">
+              Medium<strong>{totals.medium ?? "—"}</strong>
+            </div>
+            <div className="pill hard">
+              Hard<strong>{totals.hard ?? "—"}</strong>
+            </div>
           </div>
         </div>
       )}

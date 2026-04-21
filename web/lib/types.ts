@@ -66,3 +66,14 @@ export interface Summary {
   member_count: number;
   members: SummaryMember[];
 }
+
+export type BenchmarkPeriod = "daily" | "weekly" | "monthly";
+
+export interface BenchmarkEntry {
+  leetcode_username: string;
+  display_name: string;
+  server_region: "US" | "CN";
+  count: number;
+}
+
+export type Benchmarks = Record<BenchmarkPeriod, BenchmarkEntry[]>;

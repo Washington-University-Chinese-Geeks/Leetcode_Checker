@@ -9,7 +9,13 @@
 import fs from "node:fs";
 import path from "node:path";
 
-import type { Summary, UserRecord } from "./types";
+import type {
+  BenchmarkEntry,
+  BenchmarkPeriod,
+  Benchmarks,
+  Summary,
+  UserRecord,
+} from "./types";
 
 // web/lib/data.ts -> up to repo root -> data/
 const DATA_DIR = path.resolve(process.cwd(), "..", "data");
@@ -57,4 +63,44 @@ export function listUserSlugs(): string[] {
     .readdirSync(USERS_DIR)
     .filter((f) => f.endsWith(".json"))
     .map((f) => f.slice(0, -".json".length));
+}
+
+const WINDOW_SECONDS: Record<BenchmarkPeriod, number> = {
+  daily: 24 * 60 * 60,
+  weekly: 7 * 24 * 60 * 60,
+  monthly: 30 * 24 * 60 * 60,
+};
+
+function countSubmissionsInWindow(user: UserRecord, windowSec: number, nowSec: number): number {
+  const cutoff = nowSec - windowSec;
+  let n = 0;
+  for (const s of user.recent_submissions) {
+    const ts = Number(s.timestamp);
+    if (!Number.isFinite(ts) || ts <= 0) continue;
+    if (ts >= cutoff) n += 1;
+  }
+  return n;
+}
+
+export function loadBenchmarks(users?: UserRecord[]): Benchmarks {
+  const all = users ?? loadAllUsers();
+  const nowSec = Math.floor(Date.now() / 1000);
+
+  const build = (period: BenchmarkPeriod): BenchmarkEntry[] => {
+    const w = WINDOW_SECONDS[period];
+    return all
+      .map<BenchmarkEntry>((u) => ({
+        leetcode_username: u.leetcode_username,
+        display_name: u.display_name,
+        server_region: u.server_region,
+        count: countSubmissionsInWindow(u, w, nowSec),
+      }))
+      .sort((a, b) => b.count - a.count || a.display_name.localeCompare(b.display_name));
+  };
+
+  return {
+    daily: build("daily"),
+    weekly: build("weekly"),
+    monthly: build("monthly"),
+  };
 }
