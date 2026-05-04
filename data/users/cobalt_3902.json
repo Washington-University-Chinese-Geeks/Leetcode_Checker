@@ -5,7 +5,7 @@
     "total_active_days": 4
   },
   "display_name": "Kalina",
-  "last_updated": "2026-05-03T08:55:46.219885+00:00",
+  "last_updated": "2026-05-04T09:30:39.615768+00:00",
   "leetcode_username": "Cobalt_3902",
   "plan": {
     "end_date": null,
@@ -14,7 +14,7 @@
   },
   "profile": {
     "country_name": "United States",
-    "ranking": 525916,
+    "ranking": 526229,
     "real_name": "Kalina",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/Cobalt_3902/avatar_1739162987.png"
@@ -75,14 +75,6 @@
       "timestamp": "1746325901",
       "title": "Maximum Product of Two Digits",
       "title_slug": "maximum-product-of-two-digits"
-    },
-    {
-      "id": "1624826565",
-      "proof_url": "https://leetcode.com/submissions/detail/1624826565/",
-      "submitted_at": "2025-05-04T01:27:01+00:00",
-      "timestamp": "1746322021",
-      "title": "Number of Equivalent Domino Pairs",
-      "title_slug": "number-of-equivalent-domino-pairs"
     }
   ],
   "server_region": "US",
