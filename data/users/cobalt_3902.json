@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 2,
-    "submission_calendar": "{\"1746316800\": 4, \"1746576000\": 1, \"1757808000\": 10, \"1757894400\": 1}",
-    "total_active_days": 4
+    "submission_calendar": "{\"1746576000\": 1, \"1757808000\": 10, \"1757894400\": 1}",
+    "total_active_days": 3
   },
   "display_name": "Kalina",
-  "last_updated": "2026-05-04T09:30:39.615768+00:00",
+  "last_updated": "2026-05-05T09:18:29.488691+00:00",
   "leetcode_username": "Cobalt_3902",
   "plan": {
     "end_date": null,
@@ -14,7 +14,7 @@
   },
   "profile": {
     "country_name": "United States",
-    "ranking": 526229,
+    "ranking": 526471,
     "real_name": "Kalina",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/Cobalt_3902/avatar_1739162987.png"
@@ -59,22 +59,6 @@
       "timestamp": "1746594288",
       "title": "Find Minimum Time to Reach Last Room I",
       "title_slug": "find-minimum-time-to-reach-last-room-i"
-    },
-    {
-      "id": "1624865345",
-      "proof_url": "https://leetcode.com/submissions/detail/1624865345/",
-      "submitted_at": "2025-05-04T02:41:10+00:00",
-      "timestamp": "1746326470",
-      "title": "Fill a Special Grid",
-      "title_slug": "fill-a-special-grid"
-    },
-    {
-      "id": "1624851892",
-      "proof_url": "https://leetcode.com/submissions/detail/1624851892/",
-      "submitted_at": "2025-05-04T02:31:41+00:00",
-      "timestamp": "1746325901",
-      "title": "Maximum Product of Two Digits",
-      "title_slug": "maximum-product-of-two-digits"
     }
   ],
   "server_region": "US",
