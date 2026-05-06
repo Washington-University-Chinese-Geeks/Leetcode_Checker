@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T09:18:29.488691+00:00",
+  "generated_at": "2026-05-06T09:35:37.035276+00:00",
   "member_count": 9,
   "members": [
     {
@@ -17,14 +17,14 @@
     {
       "data_file": "data/users/aaronbychen.json",
       "display_name": "aronic",
-      "last_submission_at": "2026-03-27T22:48:58+00:00",
+      "last_submission_at": null,
       "leetcode_username": "aaronbychen",
       "plan_end_date": "2027-06-01",
       "plan_start_date": "2025-01-21",
       "plan_submission_count": 0,
-      "recent_submission_count": 20,
+      "recent_submission_count": 0,
       "server_region": "US",
-      "total_solved": 184
+      "total_solved": null
     },
     {
       "data_file": "data/users/cobalt_3902.json",
@@ -96,19 +96,19 @@
       "plan_submission_count": 0,
       "recent_submission_count": 20,
       "server_region": "US",
-      "total_solved": 46
+      "total_solved": null
     },
     {
       "data_file": "data/users/trance-0.json",
       "display_name": "; DROP TABLE Member",
-      "last_submission_at": "2026-05-05T01:47:10+00:00",
+      "last_submission_at": "2026-05-06T00:50:21+00:00",
       "leetcode_username": "Trance-0",
       "plan_end_date": "2075-01-01",
       "plan_start_date": "2024-10-28",
       "plan_submission_count": 0,
       "recent_submission_count": 20,
       "server_region": "US",
-      "total_solved": 1509
+      "total_solved": null
     }
   ]
 }
