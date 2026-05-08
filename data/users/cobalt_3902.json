@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 2,
-    "submission_calendar": "{\"1746576000\": 1, \"1757808000\": 10, \"1757894400\": 1}",
-    "total_active_days": 3
+    "submission_calendar": "{\"1757808000\": 10, \"1757894400\": 1}",
+    "total_active_days": 2
   },
   "display_name": "Kalina",
-  "last_updated": "2026-05-07T09:44:35.225270+00:00",
+  "last_updated": "2026-05-08T08:47:58.276438+00:00",
   "leetcode_username": "Cobalt_3902",
   "plan": {
     "end_date": null,
@@ -14,7 +14,7 @@
   },
   "profile": {
     "country_name": "United States",
-    "ranking": 527008,
+    "ranking": 527238,
     "real_name": "Kalina",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/Cobalt_3902/avatar_1739162987.png"
@@ -51,14 +51,6 @@
       "timestamp": "1757817087",
       "title": "Earliest Time to Finish One Task",
       "title_slug": "earliest-time-to-finish-one-task"
-    },
-    {
-      "id": "1627537694",
-      "proof_url": "https://leetcode.com/submissions/detail/1627537694/",
-      "submitted_at": "2025-05-07T05:04:48+00:00",
-      "timestamp": "1746594288",
-      "title": "Find Minimum Time to Reach Last Room I",
-      "title_slug": "find-minimum-time-to-reach-last-room-i"
     }
   ],
   "server_region": "US",
