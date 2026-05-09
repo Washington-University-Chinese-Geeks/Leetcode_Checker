@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 1,
-    "submission_calendar": "{\"1752883200\": 7}",
-    "total_active_days": 1
+    "submission_calendar": "{\"1778198400\": 1, \"1752883200\": 7}",
+    "total_active_days": 2
   },
   "display_name": "730",
-  "last_updated": "2026-05-08T08:47:58.276438+00:00",
+  "last_updated": "2026-05-09T08:50:06.988997+00:00",
   "leetcode_username": "730",
   "plan": {
     "end_date": null,
@@ -14,12 +14,20 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 3064526,
+    "ranking": 3065809,
     "real_name": "duwz730",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/avatars/avatar_1700455124.png"
   },
   "recent_submissions": [
+    {
+      "id": "1998157867",
+      "proof_url": "https://leetcode.com/submissions/detail/1998157867/",
+      "submitted_at": "2026-05-08T13:41:51+00:00",
+      "timestamp": "1778247711",
+      "title": "Merge Strings Alternately",
+      "title_slug": "merge-strings-alternately"
+    },
     {
       "id": "1703563278",
       "proof_url": "https://leetcode.com/submissions/detail/1703563278/",
