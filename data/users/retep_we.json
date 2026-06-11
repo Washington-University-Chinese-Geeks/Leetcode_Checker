@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 4,
-    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
-    "total_active_days": 19
+    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
+    "total_active_days": 20
   },
   "display_name": "retep",
-  "last_updated": "2026-06-10T11:02:09.915727+00:00",
+  "last_updated": "2026-06-11T11:46:36.289662+00:00",
   "leetcode_username": "retep_we",
   "plan": {
     "end_date": "2025-01-31",
@@ -14,12 +14,36 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 2669238,
+    "ranking": 2570718,
     "real_name": "retep_we",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/retep_we/avatar_1730515392.png"
   },
   "recent_submissions": [
+    {
+      "id": "2029467145",
+      "proof_url": "https://leetcode.com/submissions/detail/2029467145/",
+      "submitted_at": "2026-06-11T07:49:32+00:00",
+      "timestamp": "1781164172",
+      "title": "Trapping Rain Water",
+      "title_slug": "trapping-rain-water"
+    },
+    {
+      "id": "2029259586",
+      "proof_url": "https://leetcode.com/submissions/detail/2029259586/",
+      "submitted_at": "2026-06-11T04:34:32+00:00",
+      "timestamp": "1781152472",
+      "title": "Search in Rotated Sorted Array",
+      "title_slug": "search-in-rotated-sorted-array"
+    },
+    {
+      "id": "2029234361",
+      "proof_url": "https://leetcode.com/submissions/detail/2029234361/",
+      "submitted_at": "2026-06-11T04:06:05+00:00",
+      "timestamp": "1781150765",
+      "title": "Find Minimum in Rotated Sorted Array",
+      "title_slug": "find-minimum-in-rotated-sorted-array"
+    },
     {
       "id": "1967333653",
       "proof_url": "https://leetcode.com/submissions/detail/1967333653/",
@@ -155,37 +179,13 @@
       "timestamp": "1773976511",
       "title": "LRU Cache",
       "title_slug": "lru-cache"
-    },
-    {
-      "id": "1950697169",
-      "proof_url": "https://leetcode.com/submissions/detail/1950697169/",
-      "submitted_at": "2026-03-17T04:26:15+00:00",
-      "timestamp": "1773721575",
-      "title": "Design Ride Sharing System",
-      "title_slug": "design-ride-sharing-system"
-    },
-    {
-      "id": "1949677213",
-      "proof_url": "https://leetcode.com/submissions/detail/1949677213/",
-      "submitted_at": "2026-03-16T04:29:41+00:00",
-      "timestamp": "1773635381",
-      "title": "Get Biggest Three Rhombus Sums in a Grid",
-      "title_slug": "get-biggest-three-rhombus-sums-in-a-grid"
-    },
-    {
-      "id": "1949642715",
-      "proof_url": "https://leetcode.com/submissions/detail/1949642715/",
-      "submitted_at": "2026-03-16T03:33:28+00:00",
-      "timestamp": "1773632008",
-      "title": "Design Auction System",
-      "title_slug": "design-auction-system"
     }
   ],
   "server_region": "US",
   "totals": {
-    "all": 46,
+    "all": 49,
     "easy": 5,
-    "hard": 3,
-    "medium": 38
+    "hard": 4,
+    "medium": 40
   }
 }
