@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 4,
-    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
-    "total_active_days": 20
+    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
+    "total_active_days": 21
   },
   "display_name": "retep",
-  "last_updated": "2026-06-14T10:31:32.061876+00:00",
+  "last_updated": "2026-06-15T13:25:30.677864+00:00",
   "leetcode_username": "retep_we",
   "plan": {
     "end_date": "2025-01-31",
@@ -14,12 +14,36 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 2574418,
+    "ranking": 2469931,
     "real_name": "retep_we",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/retep_we/avatar_1730515392.png"
   },
   "recent_submissions": [
+    {
+      "id": "2033623356",
+      "proof_url": "https://leetcode.com/submissions/detail/2033623356/",
+      "submitted_at": "2026-06-15T07:24:18+00:00",
+      "timestamp": "1781508258",
+      "title": "Longest Increasing Path in a Matrix",
+      "title_slug": "longest-increasing-path-in-a-matrix"
+    },
+    {
+      "id": "2033421768",
+      "proof_url": "https://leetcode.com/submissions/detail/2033421768/",
+      "submitted_at": "2026-06-15T04:32:52+00:00",
+      "timestamp": "1781497972",
+      "title": "Koko Eating Bananas",
+      "title_slug": "koko-eating-bananas"
+    },
+    {
+      "id": "2033359044",
+      "proof_url": "https://leetcode.com/submissions/detail/2033359044/",
+      "submitted_at": "2026-06-15T03:15:55+00:00",
+      "timestamp": "1781493355",
+      "title": "Search a 2D Matrix",
+      "title_slug": "search-a-2d-matrix"
+    },
     {
       "id": "2029467145",
       "proof_url": "https://leetcode.com/submissions/detail/2029467145/",
@@ -155,37 +179,13 @@
       "timestamp": "1774150466",
       "title": "Is Subsequence",
       "title_slug": "is-subsequence"
-    },
-    {
-      "id": "1955270932",
-      "proof_url": "https://leetcode.com/submissions/detail/1955270932/",
-      "submitted_at": "2026-03-22T02:56:16+00:00",
-      "timestamp": "1774148176",
-      "title": "Maximum Subarray",
-      "title_slug": "maximum-subarray"
-    },
-    {
-      "id": "1955211894",
-      "proof_url": "https://leetcode.com/submissions/detail/1955211894/",
-      "submitted_at": "2026-03-22T02:12:12+00:00",
-      "timestamp": "1774145532",
-      "title": "Two Sum II - Input Array Is Sorted",
-      "title_slug": "two-sum-ii-input-array-is-sorted"
-    },
-    {
-      "id": "1953548974",
-      "proof_url": "https://leetcode.com/submissions/detail/1953548974/",
-      "submitted_at": "2026-03-20T03:15:11+00:00",
-      "timestamp": "1773976511",
-      "title": "LRU Cache",
-      "title_slug": "lru-cache"
     }
   ],
   "server_region": "US",
   "totals": {
-    "all": 49,
+    "all": 52,
     "easy": 5,
-    "hard": 4,
-    "medium": 40
+    "hard": 5,
+    "medium": 42
   }
 }
