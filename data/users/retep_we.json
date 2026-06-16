@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 4,
-    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
-    "total_active_days": 21
+    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
+    "total_active_days": 22
   },
   "display_name": "retep",
-  "last_updated": "2026-06-15T13:25:30.677864+00:00",
+  "last_updated": "2026-06-16T12:21:12.964070+00:00",
   "leetcode_username": "retep_we",
   "plan": {
     "end_date": "2025-01-31",
@@ -14,12 +14,36 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 2469931,
+    "ranking": 2383091,
     "real_name": "retep_we",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/retep_we/avatar_1730515392.png"
   },
   "recent_submissions": [
+    {
+      "id": "2034848973",
+      "proof_url": "https://leetcode.com/submissions/detail/2034848973/",
+      "submitted_at": "2026-06-16T07:40:00+00:00",
+      "timestamp": "1781595600",
+      "title": "Merge k Sorted Lists",
+      "title_slug": "merge-k-sorted-lists"
+    },
+    {
+      "id": "2034826721",
+      "proof_url": "https://leetcode.com/submissions/detail/2034826721/",
+      "submitted_at": "2026-06-16T07:19:30+00:00",
+      "timestamp": "1781594370",
+      "title": "Longest Repeating Character Replacement",
+      "title_slug": "longest-repeating-character-replacement"
+    },
+    {
+      "id": "2034578299",
+      "proof_url": "https://leetcode.com/submissions/detail/2034578299/",
+      "submitted_at": "2026-06-16T03:58:49+00:00",
+      "timestamp": "1781582329",
+      "title": "Max Consecutive Ones III",
+      "title_slug": "max-consecutive-ones-iii"
+    },
     {
       "id": "2033623356",
       "proof_url": "https://leetcode.com/submissions/detail/2033623356/",
@@ -155,37 +179,13 @@
       "timestamp": "1774231813",
       "title": "Merge Intervals",
       "title_slug": "merge-intervals"
-    },
-    {
-      "id": "1956235595",
-      "proof_url": "https://leetcode.com/submissions/detail/1956235595/",
-      "submitted_at": "2026-03-23T01:58:40+00:00",
-      "timestamp": "1774231120",
-      "title": "Product of Array Except Self",
-      "title_slug": "product-of-array-except-self"
-    },
-    {
-      "id": "1955362543",
-      "proof_url": "https://leetcode.com/submissions/detail/1955362543/",
-      "submitted_at": "2026-03-22T03:50:53+00:00",
-      "timestamp": "1774151453",
-      "title": "Best Time to Buy and Sell Stock",
-      "title_slug": "best-time-to-buy-and-sell-stock"
-    },
-    {
-      "id": "1955339298",
-      "proof_url": "https://leetcode.com/submissions/detail/1955339298/",
-      "submitted_at": "2026-03-22T03:34:26+00:00",
-      "timestamp": "1774150466",
-      "title": "Is Subsequence",
-      "title_slug": "is-subsequence"
     }
   ],
   "server_region": "US",
   "totals": {
-    "all": 52,
+    "all": 55,
     "easy": 5,
-    "hard": 5,
-    "medium": 42
+    "hard": 6,
+    "medium": 44
   }
 }
