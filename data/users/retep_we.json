@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 4,
-    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
-    "total_active_days": 22
+    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
+    "total_active_days": 23
   },
   "display_name": "retep",
-  "last_updated": "2026-06-16T12:21:12.964070+00:00",
+  "last_updated": "2026-06-17T11:56:41.354635+00:00",
   "leetcode_username": "retep_we",
   "plan": {
     "end_date": "2025-01-31",
@@ -14,12 +14,28 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 2383091,
+    "ranking": 2330090,
     "real_name": "retep_we",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/retep_we/avatar_1730515392.png"
   },
   "recent_submissions": [
+    {
+      "id": "2036009265",
+      "proof_url": "https://leetcode.com/submissions/detail/2036009265/",
+      "submitted_at": "2026-06-17T06:44:05+00:00",
+      "timestamp": "1781678645",
+      "title": "Minimum Size Subarray Sum",
+      "title_slug": "minimum-size-subarray-sum"
+    },
+    {
+      "id": "2035838815",
+      "proof_url": "https://leetcode.com/submissions/detail/2035838815/",
+      "submitted_at": "2026-06-17T04:25:34+00:00",
+      "timestamp": "1781670334",
+      "title": "Permutation in String",
+      "title_slug": "permutation-in-string"
+    },
     {
       "id": "2034848973",
       "proof_url": "https://leetcode.com/submissions/detail/2034848973/",
@@ -163,29 +179,13 @@
       "timestamp": "1774313457",
       "title": "Rotate Image",
       "title_slug": "rotate-image"
-    },
-    {
-      "id": "1956255668",
-      "proof_url": "https://leetcode.com/submissions/detail/1956255668/",
-      "submitted_at": "2026-03-23T02:48:20+00:00",
-      "timestamp": "1774234100",
-      "title": "Spiral Matrix",
-      "title_slug": "spiral-matrix"
-    },
-    {
-      "id": "1956239894",
-      "proof_url": "https://leetcode.com/submissions/detail/1956239894/",
-      "submitted_at": "2026-03-23T02:10:13+00:00",
-      "timestamp": "1774231813",
-      "title": "Merge Intervals",
-      "title_slug": "merge-intervals"
     }
   ],
   "server_region": "US",
   "totals": {
-    "all": 55,
+    "all": 57,
     "easy": 5,
     "hard": 6,
-    "medium": 44
+    "medium": 46
   }
 }
