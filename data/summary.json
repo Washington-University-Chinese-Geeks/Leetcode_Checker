@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T10:07:36.915612+00:00",
+  "generated_at": "2026-06-29T12:06:59.385260+00:00",
   "member_count": 9,
   "members": [
     {
@@ -89,26 +89,26 @@
     {
       "data_file": "data/users/retep_we.json",
       "display_name": "retep",
-      "last_submission_at": "2026-06-17T06:44:05+00:00",
+      "last_submission_at": "2026-06-29T03:17:36+00:00",
       "leetcode_username": "retep_we",
       "plan_end_date": "2025-01-31",
       "plan_start_date": "2025-01-24",
       "plan_submission_count": 0,
       "recent_submission_count": 20,
       "server_region": "US",
-      "total_solved": 57
+      "total_solved": 58
     },
     {
       "data_file": "data/users/trance-0.json",
       "display_name": "; DROP TABLE Member",
-      "last_submission_at": "2026-06-28T04:26:46+00:00",
+      "last_submission_at": "2026-06-29T01:01:16+00:00",
       "leetcode_username": "Trance-0",
       "plan_end_date": "2075-01-01",
       "plan_start_date": "2024-10-28",
       "plan_submission_count": 0,
       "recent_submission_count": 20,
       "server_region": "US",
-      "total_solved": 1571
+      "total_solved": 1583
     }
   ]
 }
