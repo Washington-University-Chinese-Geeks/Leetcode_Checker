@@ -5,7 +5,7 @@
     "total_active_days": 334
   },
   "display_name": "; DROP TABLE Member",
-  "last_updated": "2026-06-30T10:35:35.078276+00:00",
+  "last_updated": "2026-07-01T10:48:02.735133+00:00",
   "leetcode_username": "Trance-0",
   "plan": {
     "end_date": "2075-01-01",
@@ -14,7 +14,7 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 5694,
+    "ranking": 5697,
     "real_name": "Zheyuan Wu",
     "reputation": 10,
     "user_avatar": "https://assets.leetcode.com/users/Trance-0/avatar_1710734976.png"

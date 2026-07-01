@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 4,
-    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1782691200\": 1, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
-    "total_active_days": 24
+    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1782691200\": 1, \"1782864000\": 1, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
+    "total_active_days": 25
   },
   "display_name": "retep",
-  "last_updated": "2026-06-30T10:35:35.078276+00:00",
+  "last_updated": "2026-07-01T10:48:02.735133+00:00",
   "leetcode_username": "retep_we",
   "plan": {
     "end_date": "2025-01-31",
@@ -14,12 +14,20 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 2324817,
+    "ranking": 2302487,
     "real_name": "retep_we",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/retep_we/avatar_1730515392.png"
   },
   "recent_submissions": [
+    {
+      "id": "2051833588",
+      "proof_url": "https://leetcode.com/submissions/detail/2051833588/",
+      "submitted_at": "2026-07-01T04:11:38+00:00",
+      "timestamp": "1782879098",
+      "title": "Kth Smallest Element in a BST",
+      "title_slug": "kth-smallest-element-in-a-bst"
+    },
     {
       "id": "2049486568",
       "proof_url": "https://leetcode.com/submissions/detail/2049486568/",
@@ -171,21 +179,13 @@
       "timestamp": "1774316291",
       "title": "Design Exam Scores Tracker",
       "title_slug": "design-exam-scores-tracker"
-    },
-    {
-      "id": "1957238298",
-      "proof_url": "https://leetcode.com/submissions/detail/1957238298/",
-      "submitted_at": "2026-03-24T01:07:47+00:00",
-      "timestamp": "1774314467",
-      "title": "Valid Sudoku",
-      "title_slug": "valid-sudoku"
     }
   ],
   "server_region": "US",
   "totals": {
-    "all": 58,
+    "all": 59,
     "easy": 5,
     "hard": 6,
-    "medium": 47
+    "medium": 48
   }
 }
