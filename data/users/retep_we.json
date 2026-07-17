@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 4,
-    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1782691200\": 1, \"1782864000\": 1, \"1784160000\": 7, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
-    "total_active_days": 26
+    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1782691200\": 1, \"1782864000\": 1, \"1784160000\": 7, \"1784246400\": 6, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
+    "total_active_days": 27
   },
   "display_name": "retep",
-  "last_updated": "2026-07-16T09:25:34.528553+00:00",
+  "last_updated": "2026-07-17T09:19:48.886823+00:00",
   "leetcode_username": "retep_we",
   "plan": {
     "end_date": "2025-01-31",
@@ -14,12 +14,28 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 2327034,
+    "ranking": 2252650,
     "real_name": "retep_we",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/retep_we/avatar_1730515392.png"
   },
   "recent_submissions": [
+    {
+      "id": "2070911777",
+      "proof_url": "https://leetcode.com/submissions/detail/2070911777/",
+      "submitted_at": "2026-07-17T09:12:38+00:00",
+      "timestamp": "1784279558",
+      "title": "Kth Largest Element in an Array",
+      "title_slug": "kth-largest-element-in-an-array"
+    },
+    {
+      "id": "2070840093",
+      "proof_url": "https://leetcode.com/submissions/detail/2070840093/",
+      "submitted_at": "2026-07-17T08:01:58+00:00",
+      "timestamp": "1784275318",
+      "title": "Top K Frequent Elements",
+      "title_slug": "top-k-frequent-elements"
+    },
     {
       "id": "2069583002",
       "proof_url": "https://leetcode.com/submissions/detail/2069583002/",
@@ -163,29 +179,13 @@
       "timestamp": "1775187686",
       "title": "Remove Duplicates from Sorted List II",
       "title_slug": "remove-duplicates-from-sorted-list-ii"
-    },
-    {
-      "id": "1965476073",
-      "proof_url": "https://leetcode.com/submissions/detail/1965476073/",
-      "submitted_at": "2026-04-01T04:35:14+00:00",
-      "timestamp": "1775018114",
-      "title": "Daily Temperatures",
-      "title_slug": "daily-temperatures"
-    },
-    {
-      "id": "1965440773",
-      "proof_url": "https://leetcode.com/submissions/detail/1965440773/",
-      "submitted_at": "2026-04-01T03:43:43+00:00",
-      "timestamp": "1775015023",
-      "title": "Evaluate Reverse Polish Notation",
-      "title_slug": "evaluate-reverse-polish-notation"
     }
   ],
   "server_region": "US",
   "totals": {
-    "all": 62,
+    "all": 64,
     "easy": 5,
     "hard": 6,
-    "medium": 51
+    "medium": 53
   }
 }

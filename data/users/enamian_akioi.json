@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 1,
-    "submission_calendar": "{\"1752624000\": 15, \"1755302400\": 26, \"1756166400\": 6, \"1757462400\": 3}",
-    "total_active_days": 4
+    "submission_calendar": "{\"1755302400\": 26, \"1756166400\": 6, \"1757462400\": 3}",
+    "total_active_days": 3
   },
   "display_name": "codezera",
-  "last_updated": "2026-07-16T09:25:34.528553+00:00",
+  "last_updated": "2026-07-17T09:19:48.886823+00:00",
   "leetcode_username": "EnAmiaN_AKIOI",
   "plan": {
     "end_date": "2075-01-01",
@@ -14,7 +14,7 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 3990363,
+    "ranking": 3993664,
     "real_name": "Yuanji Wang",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/EnAmiaN_AKIOI/avatar_1719031418.png"
@@ -91,22 +91,6 @@
       "timestamp": "1755311969",
       "title": "Maximum 69 Number",
       "title_slug": "maximum-69-number"
-    },
-    {
-      "id": "1700600671",
-      "proof_url": "https://leetcode.com/submissions/detail/1700600671/",
-      "submitted_at": "2025-07-16T21:24:48+00:00",
-      "timestamp": "1752701088",
-      "title": "First Missing Positive",
-      "title_slug": "first-missing-positive"
-    },
-    {
-      "id": "1700460349",
-      "proof_url": "https://leetcode.com/submissions/detail/1700460349/",
-      "submitted_at": "2025-07-16T18:25:29+00:00",
-      "timestamp": "1752690329",
-      "title": "Find the Maximum Length of Valid Subsequence I",
-      "title_slug": "find-the-maximum-length-of-valid-subsequence-i"
     }
   ],
   "server_region": "US",
