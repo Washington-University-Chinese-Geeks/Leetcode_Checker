@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 1,
-    "submission_calendar": "{\"1755302400\": 26, \"1756166400\": 6, \"1757462400\": 3}",
-    "total_active_days": 3
+    "submission_calendar": "{\"1756166400\": 6, \"1757462400\": 3}",
+    "total_active_days": 2
   },
   "display_name": "codezera",
-  "last_updated": "2026-08-16T07:43:21.043506+00:00",
+  "last_updated": "2026-08-17T07:58:33.963670+00:00",
   "leetcode_username": "EnAmiaN_AKIOI",
   "plan": {
     "end_date": "2075-01-01",
@@ -14,7 +14,7 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 4092186,
+    "ranking": 4094884,
     "real_name": "Yuanji Wang",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/EnAmiaN_AKIOI/avatar_1719031418.png"
@@ -35,62 +35,6 @@
       "timestamp": "1756220283",
       "title": "Maximum Area of Longest Diagonal Rectangle",
       "title_slug": "maximum-area-of-longest-diagonal-rectangle"
-    },
-    {
-      "id": "1737016999",
-      "proof_url": "https://leetcode.com/submissions/detail/1737016999/",
-      "submitted_at": "2025-08-16T08:18:13+00:00",
-      "timestamp": "1755332293",
-      "title": "Factorial Trailing Zeroes",
-      "title_slug": "factorial-trailing-zeroes"
-    },
-    {
-      "id": "1737014764",
-      "proof_url": "https://leetcode.com/submissions/detail/1737014764/",
-      "submitted_at": "2025-08-16T08:15:35+00:00",
-      "timestamp": "1755332135",
-      "title": "Bitwise AND of Numbers Range",
-      "title_slug": "bitwise-and-of-numbers-range"
-    },
-    {
-      "id": "1736988743",
-      "proof_url": "https://leetcode.com/submissions/detail/1736988743/",
-      "submitted_at": "2025-08-16T07:45:51+00:00",
-      "timestamp": "1755330351",
-      "title": "Single Number",
-      "title_slug": "single-number"
-    },
-    {
-      "id": "1736986197",
-      "proof_url": "https://leetcode.com/submissions/detail/1736986197/",
-      "submitted_at": "2025-08-16T07:43:08+00:00",
-      "timestamp": "1755330188",
-      "title": "Reverse Bits",
-      "title_slug": "reverse-bits"
-    },
-    {
-      "id": "1736767585",
-      "proof_url": "https://leetcode.com/submissions/detail/1736767585/",
-      "submitted_at": "2025-08-16T03:36:29+00:00",
-      "timestamp": "1755315389",
-      "title": "Jump Game II",
-      "title_slug": "jump-game-ii"
-    },
-    {
-      "id": "1736752917",
-      "proof_url": "https://leetcode.com/submissions/detail/1736752917/",
-      "submitted_at": "2025-08-16T03:07:14+00:00",
-      "timestamp": "1755313634",
-      "title": "Jump Game",
-      "title_slug": "jump-game"
-    },
-    {
-      "id": "1736740508",
-      "proof_url": "https://leetcode.com/submissions/detail/1736740508/",
-      "submitted_at": "2025-08-16T02:39:29+00:00",
-      "timestamp": "1755311969",
-      "title": "Maximum 69 Number",
-      "title_slug": "maximum-69-number"
     }
   ],
   "server_region": "US",
