@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 4,
-    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1782691200\": 1, \"1782864000\": 1, \"1784160000\": 7, \"1784246400\": 8, \"1785715200\": 1, \"1787875200\": 1, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
-    "total_active_days": 29
+    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1782691200\": 1, \"1782864000\": 1, \"1784160000\": 7, \"1784246400\": 8, \"1785715200\": 1, \"1787875200\": 1, \"1788307200\": 2, \"1788393600\": 2, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
+    "total_active_days": 31
   },
   "display_name": "retep",
-  "last_updated": "2026-09-02T12:05:17.326045+00:00",
+  "last_updated": "2026-09-03T12:04:33.660632+00:00",
   "leetcode_username": "retep_we",
   "plan": {
     "end_date": "2025-01-31",
@@ -14,12 +14,44 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 2219409,
+    "ranking": 2133499,
     "real_name": "retep_we",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/retep_we/avatar_1730515392.png"
   },
   "recent_submissions": [
+    {
+      "id": "2129086069",
+      "proof_url": "https://leetcode.com/submissions/detail/2129086069/",
+      "submitted_at": "2026-09-03T02:43:56+00:00",
+      "timestamp": "1788403436",
+      "title": "Word Search",
+      "title_slug": "word-search"
+    },
+    {
+      "id": "2129071807",
+      "proof_url": "https://leetcode.com/submissions/detail/2129071807/",
+      "submitted_at": "2026-09-03T02:14:28+00:00",
+      "timestamp": "1788401668",
+      "title": "Combination Sum",
+      "title_slug": "combination-sum"
+    },
+    {
+      "id": "2128630444",
+      "proof_url": "https://leetcode.com/submissions/detail/2128630444/",
+      "submitted_at": "2026-09-02T15:48:10+00:00",
+      "timestamp": "1788364090",
+      "title": "Combinations",
+      "title_slug": "combinations"
+    },
+    {
+      "id": "2128616822",
+      "proof_url": "https://leetcode.com/submissions/detail/2128616822/",
+      "submitted_at": "2026-09-02T15:36:23+00:00",
+      "timestamp": "1788363383",
+      "title": "Permutations",
+      "title_slug": "permutations"
+    },
     {
       "id": "2122506957",
       "proof_url": "https://leetcode.com/submissions/detail/2122506957/",
@@ -147,45 +179,13 @@
       "timestamp": "1781508258",
       "title": "Longest Increasing Path in a Matrix",
       "title_slug": "longest-increasing-path-in-a-matrix"
-    },
-    {
-      "id": "2033421768",
-      "proof_url": "https://leetcode.com/submissions/detail/2033421768/",
-      "submitted_at": "2026-06-15T04:32:52+00:00",
-      "timestamp": "1781497972",
-      "title": "Koko Eating Bananas",
-      "title_slug": "koko-eating-bananas"
-    },
-    {
-      "id": "2033359044",
-      "proof_url": "https://leetcode.com/submissions/detail/2033359044/",
-      "submitted_at": "2026-06-15T03:15:55+00:00",
-      "timestamp": "1781493355",
-      "title": "Search a 2D Matrix",
-      "title_slug": "search-a-2d-matrix"
-    },
-    {
-      "id": "2029467145",
-      "proof_url": "https://leetcode.com/submissions/detail/2029467145/",
-      "submitted_at": "2026-06-11T07:49:32+00:00",
-      "timestamp": "1781164172",
-      "title": "Trapping Rain Water",
-      "title_slug": "trapping-rain-water"
-    },
-    {
-      "id": "2029259586",
-      "proof_url": "https://leetcode.com/submissions/detail/2029259586/",
-      "submitted_at": "2026-06-11T04:34:32+00:00",
-      "timestamp": "1781152472",
-      "title": "Search in Rotated Sorted Array",
-      "title_slug": "search-in-rotated-sorted-array"
     }
   ],
   "server_region": "US",
   "totals": {
-    "all": 67,
+    "all": 71,
     "easy": 5,
     "hard": 6,
-    "medium": 56
+    "medium": 60
   }
 }
