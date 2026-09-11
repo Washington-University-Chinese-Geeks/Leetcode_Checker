@@ -1,11 +1,11 @@
 {
   "calendar": {
-    "streak": 1,
-    "submission_calendar": "{\"1757462400\": 3}",
-    "total_active_days": 1
+    "streak": 0,
+    "submission_calendar": "{}",
+    "total_active_days": 0
   },
   "display_name": "codezera",
-  "last_updated": "2026-09-10T12:12:18.566374+00:00",
+  "last_updated": "2026-09-11T12:11:00.563092+00:00",
   "leetcode_username": "EnAmiaN_AKIOI",
   "plan": {
     "end_date": "2075-01-01",
@@ -14,21 +14,12 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 4160357,
+    "ranking": 4163014,
     "real_name": "Yuanji Wang",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/EnAmiaN_AKIOI/avatar_1719031418.png"
   },
-  "recent_submissions": [
-    {
-      "id": "1766254543",
-      "proof_url": "https://leetcode.com/submissions/detail/1766254543/",
-      "submitted_at": "2025-09-10T16:34:40+00:00",
-      "timestamp": "1757522080",
-      "title": "Best Time to Buy and Sell Stock",
-      "title_slug": "best-time-to-buy-and-sell-stock"
-    }
-  ],
+  "recent_submissions": [],
   "server_region": "US",
   "totals": {
     "all": 23,
