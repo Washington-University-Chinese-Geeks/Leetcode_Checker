@@ -1,7 +1,11 @@
 {
-  "calendar": null,
+  "calendar": {
+    "streak": 0,
+    "submission_calendar": "{}",
+    "total_active_days": 0
+  },
   "display_name": "fang_z1",
-  "last_updated": "2026-09-12T11:35:28.391915+00:00",
+  "last_updated": "2026-09-13T12:42:26.282196+00:00",
   "leetcode_username": "fang_z1",
   "plan": {
     "end_date": "2025-05-31",
