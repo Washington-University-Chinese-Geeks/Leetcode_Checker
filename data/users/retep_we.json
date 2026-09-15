@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 4,
-    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1782691200\": 1, \"1782864000\": 1, \"1784160000\": 7, \"1784246400\": 8, \"1785715200\": 1, \"1787875200\": 1, \"1788307200\": 2, \"1788393600\": 7, \"1788825600\": 2, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
-    "total_active_days": 32
+    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1782691200\": 1, \"1782864000\": 1, \"1784160000\": 7, \"1784246400\": 8, \"1785715200\": 1, \"1787875200\": 1, \"1788307200\": 2, \"1788393600\": 7, \"1788825600\": 2, \"1789430400\": 4, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
+    "total_active_days": 33
   },
   "display_name": "retep",
-  "last_updated": "2026-09-14T13:59:27.521141+00:00",
+  "last_updated": "2026-09-15T12:38:31.631946+00:00",
   "leetcode_username": "retep_we",
   "plan": {
     "end_date": "2025-01-31",
@@ -14,12 +14,28 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 2027774,
+    "ranking": 1991838,
     "real_name": "retep_we",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/retep_we/avatar_1730515392.png"
   },
   "recent_submissions": [
+    {
+      "id": "2142113348",
+      "proof_url": "https://leetcode.com/submissions/detail/2142113348/",
+      "submitted_at": "2026-09-15T02:45:28+00:00",
+      "timestamp": "1789440328",
+      "title": "Design Snake Game",
+      "title_slug": "design-snake-game"
+    },
+    {
+      "id": "2142060442",
+      "proof_url": "https://leetcode.com/submissions/detail/2142060442/",
+      "submitted_at": "2026-09-15T00:10:41+00:00",
+      "timestamp": "1789431041",
+      "title": "Binary Search Tree Iterator",
+      "title_slug": "binary-search-tree-iterator"
+    },
     {
       "id": "2134592835",
       "proof_url": "https://leetcode.com/submissions/detail/2134592835/",
@@ -163,29 +179,13 @@
       "timestamp": "1784186495",
       "title": "Find Peak Element",
       "title_slug": "find-peak-element"
-    },
-    {
-      "id": "2051833588",
-      "proof_url": "https://leetcode.com/submissions/detail/2051833588/",
-      "submitted_at": "2026-07-01T04:11:38+00:00",
-      "timestamp": "1782879098",
-      "title": "Kth Smallest Element in a BST",
-      "title_slug": "kth-smallest-element-in-a-bst"
-    },
-    {
-      "id": "2049486568",
-      "proof_url": "https://leetcode.com/submissions/detail/2049486568/",
-      "submitted_at": "2026-06-29T03:17:36+00:00",
-      "timestamp": "1782703056",
-      "title": "Binary Tree Level Order Traversal",
-      "title_slug": "binary-tree-level-order-traversal"
     }
   ],
   "server_region": "US",
   "totals": {
-    "all": 77,
+    "all": 79,
     "easy": 5,
     "hard": 6,
-    "medium": 66
+    "medium": 68
   }
 }

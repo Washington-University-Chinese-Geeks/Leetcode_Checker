@@ -1,11 +1,11 @@
 {
   "calendar": {
-    "streak": 2,
-    "submission_calendar": "{\"1757808000\": 10, \"1757894400\": 1}",
-    "total_active_days": 2
+    "streak": 1,
+    "submission_calendar": "{\"1757894400\": 1}",
+    "total_active_days": 1
   },
   "display_name": "Kalina",
-  "last_updated": "2026-09-14T13:59:27.521141+00:00",
+  "last_updated": "2026-09-15T12:38:31.631946+00:00",
   "leetcode_username": "Cobalt_3902",
   "plan": {
     "end_date": null,
@@ -14,21 +14,12 @@
   },
   "profile": {
     "country_name": "United States",
-    "ranking": 582762,
+    "ranking": 583191,
     "real_name": "Kalina",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/Cobalt_3902/avatar_1739162987.png"
   },
-  "recent_submissions": [
-    {
-      "id": "1771087979",
-      "proof_url": "https://leetcode.com/submissions/detail/1771087979/",
-      "submitted_at": "2025-09-15T03:00:01+00:00",
-      "timestamp": "1757905201",
-      "title": "Maximum Number of Words You Can Type",
-      "title_slug": "maximum-number-of-words-you-can-type"
-    }
-  ],
+  "recent_submissions": [],
   "server_region": "US",
   "totals": {
     "all": 270,
