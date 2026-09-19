@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 1,
-    "submission_calendar": "{\"1778198400\": 1}",
-    "total_active_days": 1
+    "submission_calendar": "{\"1778198400\": 1, \"1789689600\": 1}",
+    "total_active_days": 2
   },
   "display_name": "730",
-  "last_updated": "2026-09-18T12:12:42.430677+00:00",
+  "last_updated": "2026-09-19T11:54:55.096024+00:00",
   "leetcode_username": "730",
   "plan": {
     "end_date": null,
@@ -14,17 +14,17 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 3359294,
+    "ranking": 3361090,
     "real_name": "duwz730",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/avatars/avatar_1700455124.png"
   },
   "recent_submissions": [
     {
-      "id": "1998157867",
-      "proof_url": "https://leetcode.com/submissions/detail/1998157867/",
-      "submitted_at": "2026-05-08T13:41:51+00:00",
-      "timestamp": "1778247711",
+      "id": "2146139988",
+      "proof_url": "https://leetcode.com/submissions/detail/2146139988/",
+      "submitted_at": "2026-09-18T21:05:51+00:00",
+      "timestamp": "1789765551",
       "title": "Merge Strings Alternately",
       "title_slug": "merge-strings-alternately"
     }
