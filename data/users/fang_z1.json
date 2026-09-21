@@ -5,7 +5,7 @@
     "total_active_days": 0
   },
   "display_name": "fang_z1",
-  "last_updated": "2026-09-20T12:18:26.659058+00:00",
+  "last_updated": "2026-09-21T14:04:14.081021+00:00",
   "leetcode_username": "fang_z1",
   "plan": {
     "end_date": "2025-05-31",
@@ -21,5 +21,10 @@
   },
   "recent_submissions": [],
   "server_region": "US",
-  "totals": null
+  "totals": {
+    "all": 9,
+    "easy": 9,
+    "hard": 0,
+    "medium": 0
+  }
 }

@@ -5,7 +5,7 @@
     "total_active_days": 0
   },
   "display_name": "Kalina",
-  "last_updated": "2026-09-20T12:18:26.659058+00:00",
+  "last_updated": "2026-09-21T14:04:14.081021+00:00",
   "leetcode_username": "Cobalt_3902",
   "plan": {
     "end_date": null,
@@ -14,12 +14,17 @@
   },
   "profile": {
     "country_name": "United States",
-    "ranking": 585118,
+    "ranking": 585516,
     "real_name": "Kalina",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/Cobalt_3902/avatar_1739162987.png"
   },
   "recent_submissions": [],
   "server_region": "US",
-  "totals": null
+  "totals": {
+    "all": 270,
+    "easy": 93,
+    "hard": 24,
+    "medium": 153
+  }
 }
