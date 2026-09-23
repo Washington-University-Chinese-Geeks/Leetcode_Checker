@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 4,
-    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1782691200\": 1, \"1782864000\": 1, \"1784160000\": 7, \"1784246400\": 8, \"1785715200\": 1, \"1787875200\": 1, \"1788307200\": 2, \"1788393600\": 7, \"1788825600\": 2, \"1789430400\": 6, \"1789603200\": 3, \"1789689600\": 1, \"1789948800\": 8, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
-    "total_active_days": 36
+    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1782691200\": 1, \"1782864000\": 1, \"1784160000\": 7, \"1784246400\": 8, \"1785715200\": 1, \"1787875200\": 1, \"1788307200\": 2, \"1788393600\": 7, \"1788825600\": 2, \"1789430400\": 6, \"1789603200\": 3, \"1789689600\": 1, \"1789948800\": 8, \"1790121600\": 7, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
+    "total_active_days": 37
   },
   "display_name": "retep",
-  "last_updated": "2026-09-22T12:34:34.406486+00:00",
+  "last_updated": "2026-09-23T12:43:48.206914+00:00",
   "leetcode_username": "retep_we",
   "plan": {
     "end_date": "2025-01-31",
@@ -14,12 +14,52 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 1895999,
+    "ranking": 1818636,
     "real_name": "retep_we",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/retep_we/avatar_1730515392.png"
   },
   "recent_submissions": [
+    {
+      "id": "2150369605",
+      "proof_url": "https://leetcode.com/submissions/detail/2150369605/",
+      "submitted_at": "2026-09-23T03:29:38+00:00",
+      "timestamp": "1790134178",
+      "title": "Minimum Remove to Make Valid Parentheses",
+      "title_slug": "minimum-remove-to-make-valid-parentheses"
+    },
+    {
+      "id": "2150343124",
+      "proof_url": "https://leetcode.com/submissions/detail/2150343124/",
+      "submitted_at": "2026-09-23T02:44:55+00:00",
+      "timestamp": "1790131495",
+      "title": "Find All Anagrams in a String",
+      "title_slug": "find-all-anagrams-in-a-string"
+    },
+    {
+      "id": "2150328232",
+      "proof_url": "https://leetcode.com/submissions/detail/2150328232/",
+      "submitted_at": "2026-09-23T02:15:10+00:00",
+      "timestamp": "1790129710",
+      "title": "Group Anagrams",
+      "title_slug": "group-anagrams"
+    },
+    {
+      "id": "2150317242",
+      "proof_url": "https://leetcode.com/submissions/detail/2150317242/",
+      "submitted_at": "2026-09-23T01:50:34+00:00",
+      "timestamp": "1790128234",
+      "title": "Jump Game",
+      "title_slug": "jump-game"
+    },
+    {
+      "id": "2150308859",
+      "proof_url": "https://leetcode.com/submissions/detail/2150308859/",
+      "submitted_at": "2026-09-23T01:30:32+00:00",
+      "timestamp": "1790127032",
+      "title": "Delete Node in a Linked List",
+      "title_slug": "delete-node-in-a-linked-list"
+    },
     {
       "id": "2148821542",
       "proof_url": "https://leetcode.com/submissions/detail/2148821542/",
@@ -139,53 +179,13 @@
       "timestamp": "1788466232",
       "title": "Number of Islands",
       "title_slug": "number-of-islands"
-    },
-    {
-      "id": "2129086069",
-      "proof_url": "https://leetcode.com/submissions/detail/2129086069/",
-      "submitted_at": "2026-09-03T02:43:56+00:00",
-      "timestamp": "1788403436",
-      "title": "Word Search",
-      "title_slug": "word-search"
-    },
-    {
-      "id": "2129071807",
-      "proof_url": "https://leetcode.com/submissions/detail/2129071807/",
-      "submitted_at": "2026-09-03T02:14:28+00:00",
-      "timestamp": "1788401668",
-      "title": "Combination Sum",
-      "title_slug": "combination-sum"
-    },
-    {
-      "id": "2128630444",
-      "proof_url": "https://leetcode.com/submissions/detail/2128630444/",
-      "submitted_at": "2026-09-02T15:48:10+00:00",
-      "timestamp": "1788364090",
-      "title": "Combinations",
-      "title_slug": "combinations"
-    },
-    {
-      "id": "2128616822",
-      "proof_url": "https://leetcode.com/submissions/detail/2128616822/",
-      "submitted_at": "2026-09-02T15:36:23+00:00",
-      "timestamp": "1788363383",
-      "title": "Permutations",
-      "title_slug": "permutations"
-    },
-    {
-      "id": "2122506957",
-      "proof_url": "https://leetcode.com/submissions/detail/2122506957/",
-      "submitted_at": "2026-08-28T04:01:42+00:00",
-      "timestamp": "1787889702",
-      "title": "Subsets II",
-      "title_slug": "subsets-ii"
     }
   ],
   "server_region": "US",
   "totals": {
-    "all": 85,
+    "all": 90,
     "easy": 5,
     "hard": 6,
-    "medium": 74
+    "medium": 79
   }
 }
