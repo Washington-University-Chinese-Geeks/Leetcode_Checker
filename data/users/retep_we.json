@@ -1,11 +1,11 @@
 {
   "calendar": {
     "streak": 4,
-    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1782691200\": 1, \"1782864000\": 1, \"1784160000\": 7, \"1784246400\": 8, \"1785715200\": 1, \"1787875200\": 1, \"1788307200\": 2, \"1788393600\": 7, \"1788825600\": 2, \"1789430400\": 6, \"1789603200\": 3, \"1789689600\": 1, \"1789948800\": 8, \"1790121600\": 7, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
-    "total_active_days": 37
+    "submission_calendar": "{\"1771459200\": 7, \"1771545600\": 3, \"1771977600\": 4, \"1773619200\": 6, \"1773705600\": 5, \"1773964800\": 1, \"1774137600\": 5, \"1774224000\": 7, \"1774310400\": 3, \"1774396800\": 4, \"1774742400\": 2, \"1775001600\": 3, \"1775174400\": 3, \"1781136000\": 5, \"1781481600\": 9, \"1781568000\": 7, \"1781654400\": 4, \"1782691200\": 1, \"1782864000\": 1, \"1784160000\": 7, \"1784246400\": 8, \"1785715200\": 1, \"1787875200\": 1, \"1788307200\": 2, \"1788393600\": 7, \"1788825600\": 2, \"1789430400\": 6, \"1789603200\": 3, \"1789689600\": 1, \"1789948800\": 8, \"1790121600\": 7, \"1790640000\": 4, \"1790726400\": 2, \"1761523200\": 1, \"1761609600\": 5, \"1761696000\": 9, \"1762214400\": 4, \"1762300800\": 6, \"1762905600\": 6}",
+    "total_active_days": 39
   },
   "display_name": "retep",
-  "last_updated": "2026-09-29T14:01:57.500269+00:00",
+  "last_updated": "2026-09-30T13:38:49.756249+00:00",
   "leetcode_username": "retep_we",
   "plan": {
     "end_date": "2025-01-31",
@@ -14,12 +14,44 @@
   },
   "profile": {
     "country_name": null,
-    "ranking": 1826308,
+    "ranking": 1768504,
     "real_name": "retep_we",
     "reputation": 0,
     "user_avatar": "https://assets.leetcode.com/users/retep_we/avatar_1730515392.png"
   },
   "recent_submissions": [
+    {
+      "id": "2157708751",
+      "proof_url": "https://leetcode.com/submissions/detail/2157708751/",
+      "submitted_at": "2026-09-30T03:19:41+00:00",
+      "timestamp": "1790738381",
+      "title": "LFU Cache",
+      "title_slug": "lfu-cache"
+    },
+    {
+      "id": "2157659258",
+      "proof_url": "https://leetcode.com/submissions/detail/2157659258/",
+      "submitted_at": "2026-09-30T01:22:31+00:00",
+      "timestamp": "1790731351",
+      "title": "Find Median from Data Stream",
+      "title_slug": "find-median-from-data-stream"
+    },
+    {
+      "id": "2157622243",
+      "proof_url": "https://leetcode.com/submissions/detail/2157622243/",
+      "submitted_at": "2026-09-29T23:15:55+00:00",
+      "timestamp": "1790723755",
+      "title": "Word Search II",
+      "title_slug": "word-search-ii"
+    },
+    {
+      "id": "2157612896",
+      "proof_url": "https://leetcode.com/submissions/detail/2157612896/",
+      "submitted_at": "2026-09-29T22:41:35+00:00",
+      "timestamp": "1790721695",
+      "title": "Minimum Cost to Hire K Workers",
+      "title_slug": "minimum-cost-to-hire-k-workers"
+    },
     {
       "id": "2150369605",
       "proof_url": "https://leetcode.com/submissions/detail/2150369605/",
@@ -147,45 +179,13 @@
       "timestamp": "1788839401",
       "title": "Binary Tree Level Order Traversal II",
       "title_slug": "binary-tree-level-order-traversal-ii"
-    },
-    {
-      "id": "2130092953",
-      "proof_url": "https://leetcode.com/submissions/detail/2130092953/",
-      "submitted_at": "2026-09-03T20:53:53+00:00",
-      "timestamp": "1788468833",
-      "title": "Lowest Common Ancestor of a Binary Tree",
-      "title_slug": "lowest-common-ancestor-of-a-binary-tree"
-    },
-    {
-      "id": "2130088403",
-      "proof_url": "https://leetcode.com/submissions/detail/2130088403/",
-      "submitted_at": "2026-09-03T20:44:28+00:00",
-      "timestamp": "1788468268",
-      "title": "Course Schedule II",
-      "title_slug": "course-schedule-ii"
-    },
-    {
-      "id": "2130082265",
-      "proof_url": "https://leetcode.com/submissions/detail/2130082265/",
-      "submitted_at": "2026-09-03T20:32:40+00:00",
-      "timestamp": "1788467560",
-      "title": "Course Schedule",
-      "title_slug": "course-schedule"
-    },
-    {
-      "id": "2130069878",
-      "proof_url": "https://leetcode.com/submissions/detail/2130069878/",
-      "submitted_at": "2026-09-03T20:10:32+00:00",
-      "timestamp": "1788466232",
-      "title": "Number of Islands",
-      "title_slug": "number-of-islands"
     }
   ],
   "server_region": "US",
   "totals": {
-    "all": 90,
+    "all": 94,
     "easy": 5,
-    "hard": 6,
+    "hard": 10,
     "medium": 79
   }
 }
